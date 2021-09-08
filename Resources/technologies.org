@@ -1,0 +1,9 @@
+#+TITLE: Technologies
+
+* Backend
+- Python whit Django or flask
+- Docker/Containers tech
+
+* Frondend
+- JavaScript/typescript whit any framewoks
+- Docker/Containers tech
