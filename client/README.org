@@ -1,0 +1,5 @@
+#+TITLE: Readme
+
+
+* Infomación del cliente
+El cliente se va a desarrollar usando [[https://clojurescript.org/][clojureScript]], tratando de llevar un metodología de desarrollo conocida como [[https://en.wikipedia.org/wiki/Test-driven_development][TDD]].
