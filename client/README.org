@@ -2,4 +2,7 @@
 
 
 * Infomación del cliente
-El cliente se va a desarrollar usando [[https://clojurescript.org/][clojureScript]], tratando de llevar un metodología de desarrollo conocida como [[https://en.wikipedia.org/wiki/Test-driven_development][TDD]].
+El cliente se va a desarrollar usando [[https://clojurescript.org/][clojureScript]] (clojure tools-devs and figwhell), tratando de llevar un metodología de desarrollo conocida como [[https://en.wikipedia.org/wiki/Test-driven_development][TDD]].
+* Dependencias
+1. Clojure-tools.
+Puede usar el siguienete contenedor para correr la app, si no desea "contaminar" su entorno [[https://github.com/Quantisan/docker-clojure/blob/a522fe073231eeac9863571aa3e15e932e336aa1/target/openjdk-16-buster/tools-deps/Dockerfile][Clojure-container]]
