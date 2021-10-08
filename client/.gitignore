@@ -14,7 +14,7 @@ pom.xml
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-node_modules/
+/node_modules/
 .pnp
 .pnp.js
 
@@ -22,7 +22,7 @@ node_modules/
 /coverage
 
 # production
-client/build
+/build
 
 # misc
 .DS_Store
