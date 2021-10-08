@@ -1,7 +1,6 @@
 import React from 'react';
 
-class Form extends React.Component {
-  render() {
+function Form(){
     return (
         <div class="container">
             <form method="#" class="container--form">
@@ -21,7 +20,6 @@ class Form extends React.Component {
             </form>
         </div>
     );
-  }
 }
 
 export { Form };
