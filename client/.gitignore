@@ -17,6 +17,7 @@ pom.xml
 client/node_modules/
 /.pnp
 .pnp.js
+package-lock.json
 
 # testing
 client/coverage
