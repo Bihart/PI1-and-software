@@ -1,7 +1,6 @@
 import React from 'react';
 
-class Info extends React.Component {
-  render() {
+function Info() {
     return (
       <p>
         RAIN es una aplicaión que desea ayudar a personas que
@@ -11,7 +10,6 @@ class Info extends React.Component {
         hace usando Machine Learning.
       </p>
     );
-  }
 }
 
 export { Info };
