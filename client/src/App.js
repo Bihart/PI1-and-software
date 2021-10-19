@@ -25,21 +25,21 @@ function App() {
 
   return (
     <Fragment>
-      <div class="space-x-4">
+      <div className="space-x-4">
         <ul>
-          <li class="shadow-sm">
+          <li className="shadow-sm">
             <input type="button"
                    onClick={chageView}
                    value="Home"/>
           </li>
-          <li class="shadow-lg">
+          <li className="shadow-lg">
             <input type="button"
                    onClick={chageView}
                    value="Info"/>
           </li>
         </ul>
       </div>
-      <div class="w-20 h-10 bg-red">
+      <div className="w-20 h-10 bg-red">
         <form />
         <div>
           {currentView(view)}
