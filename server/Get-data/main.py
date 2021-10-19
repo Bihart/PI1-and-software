@@ -2,9 +2,18 @@
 """
 CLI-tool or little program to get data of the web
 """
+<<<<<<< HEAD
 import requests as rq
+=======
+import sys
+from flask import Flask
+from flask_restful import Resource, Api
+>>>>>>> ce6067abf6000a7a0e595b00e6e3af583656549f
 
+app = Flask(__name__)
+api = Api(app)
 
+<<<<<<< HEAD
 def main() -> int:
     """Main function"""
     print("Hola")
@@ -27,7 +36,16 @@ def main() -> int:
     # term=soil%20pressure
     response.request('GET', url, paramaters)
     return 0
+=======
+class HelloWorld(Resource):
+    def get(self):
+        return {'hello': 'world'}
 
+api.add_resource(HelloWorld, '/')
+>>>>>>> ce6067abf6000a7a0e595b00e6e3af583656549f
+
+def main():
+    app.run(debug=True)
 
 if __name__ == '__main__':
     main()
