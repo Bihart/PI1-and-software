@@ -1,9 +1,5 @@
-#+TITLE: Technologies
-
-* Backend
-- Python whit Django or flask
-- Docker/Containers tech
+#+TITLE: Technologies Frondend
 
 * Frondend
-- JavaScript/typescript whit any framewoks
+- JavaScript/typescript whit React and Tailwind.
 - Docker/Containers tech
