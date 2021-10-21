@@ -13,7 +13,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 
 class HelloWorld(Resource):
-    json = pd.read_json('outj.json')
+    json = pd.read_json('outj2.json')
     to_json = json.to_dict()
     @cross_origin()
     def get(self):

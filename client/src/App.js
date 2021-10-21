@@ -20,8 +20,8 @@ function App() {
 
   return (
     <Fragment>
-      <div className="flex flex-row h-screen w-screen">
-        <ul className="flex flex-col bg-gray-100 h-1/2 w-1/6">
+      <div className="flex flex-row min-h-screen w-screen">
+        <ul className="flex flex-col bg-gray-100 w-1/6">
           <li className="bg-green-100 p-1 hover:bg-green-300 text-center cursor-pointer">
             <input id="Home"
                    className="bg-transparent"
@@ -44,7 +44,7 @@ function App() {
                    value="Graph"/>
           </li>
         </ul>
-        <div className="bg-gray-200 flex-auto h-1/2 p-10">
+        <div className="bg-gray-200 flex-auto p-10 ">
           <Content view={view} />
         </div>
       </div>

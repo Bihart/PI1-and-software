@@ -23,11 +23,20 @@ async function fetchData(host) {
   return data;
 }
 
+const showData = () => {
+  fetchData('http://localhost:5000/api').then((data) => {
+    // const ans = Object.values(data[3]);
+    console.log(data);
+  });
+};
+
 function Graph(){
   return (
-    <p>
-      Graph is work!
-    </p>
+
+    <button className="bg-blue-400 px-2 py-4"
+      onClick={showData}>
+      Graph the info
+    </button>
   )
 }
 
