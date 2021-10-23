@@ -1,5 +1,6 @@
 import React , { useState, Fragment } from 'react';
 import { Content } from './Content/Content'
+import { ItemNavBar } from './ItemNavBar/ItemNavBar'
 import './App.css';
 
 function useView() {
@@ -7,42 +8,23 @@ function useView() {
 
   const changeView = (e) => {
     const newValue = e.target.value;
-    if( newValue === view) {
-      return
+    if( newValue !== view) {
+        setView(newValue);
     }
-    setView(newValue);
   }
   return [ view, changeView ]
 }
 
 function App() {
-  const [ view, chageView ] = useView();
+  const [ view, changeView ] = useView();
 
   return (
     <Fragment>
       <div className="flex flex-row min-h-screen w-screen">
         <ul className="flex flex-col bg-gray-100 w-1/6">
-          <li className="bg-green-100 p-1 hover:bg-green-300 text-center cursor-pointer">
-            <input id="Home"
-                   className="bg-transparent"
-                   type="button"
-                   onClick={chageView}
-                   value="Home"/>
-          </li>
-          <li className="bg-green-100 p-1 hover:bg-green-300 text-center cursor-pointer">
-            <input id="Info"
-                   className="bg-transparent"
-                   type="button"
-                   onClick={chageView}
-                   value="Info"/>
-          </li>
-          <li className="bg-green-100 p-1 hover:bg-green-300 text-center cursor-pointer">
-            <input id="Graph"
-                   className="bg-transparent"
-                   type="button"
-                   onClick={chageView}
-                   value="Graph"/>
-          </li>
+            <ItemNavBar id="Home"  onClick={changeView} value="Home"/>
+            <ItemNavBar id="Info"  onClick={changeView} value="Info"/>
+            <ItemNavBar id="Graph" onClick={changeView} value="Graph"/>
         </ul>
         <div className="bg-gray-200 flex-auto p-10 ">
           <Content view={view} />
