@@ -1,17 +1,8 @@
 import React from 'react';
 
 async function fetchData(host) {
-  const headers = new Headers({
-    'Access-Control-Allow-Origin': host
-  });
 
-  const init = {
-    method: 'GET',
-    headers: headers,
-    mode: 'cors'
-  };
-
-  const response = await fetch(host,init);
+  const response = await fetch(host);
 
   if(!response.ok) {
     const message = `An error has occured: ${response.status}`;
@@ -24,17 +15,24 @@ async function fetchData(host) {
 }
 
 const showData = () => {
-  fetchData('http://localhost:5000/api').then((data) => {
-    // const ans = Object.values(data[3]);
+  const host = '../../data.json' // client without server
+  // const host = 'http:localhost:5000/api' // client whit server
+  // python server direction 'http://localhsot:5000/api'
+  fetchData(host).then((data) => {
+    // for(const index in data){
+    //   const obj = data[index];
+    //   for(const prop in obj){
+    //     console.log(`${prop}: ${obj[prop]}`)
+    //   }
+    // }
     console.log(data);
   });
 };
 
 function Graph(){
   return (
-
     <button className="bg-blue-400 px-2 py-4"
-      onClick={showData}>
+            onClick={showData}>
       Graph the info
     </button>
   )

@@ -1,1 +1,1602 @@
-{"0":{"sensor_name":"yDeN-92616262","company":"Zimmerman Ltd","sensor_type":"LDR","sensor_price":211.87,"sensor_ID":5},"1":{"sensor_name":"pJmI-52278892","company":"Snyder, Black and Boyer","sensor_type":"HUMIDITY","sensor_price":353.68,"sensor_ID":3},"2":{"sensor_name":"wJEB-07130760","company":"Castillo Ltd","sensor_type":"AIR\/MOVEMENT","sensor_price":411.44,"sensor_ID":6},"3":{"sensor_name":"SDAn-14601214","company":"Escobar, Jackson and Morris","sensor_type":"LDR","sensor_price":374.37,"sensor_ID":5},"4":{"sensor_name":"AdZS-48662324","company":"George-Howell","sensor_type":"SOIL","sensor_price":224.98,"sensor_ID":1},"5":{"sensor_name":"mHKy-94918236","company":"Wu Group","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":204.42,"sensor_ID":4},"6":{"sensor_name":"wzPu-74114686","company":"Wood Inc","sensor_type":"HUMIDITY","sensor_price":168.24,"sensor_ID":3},"7":{"sensor_name":"OGOd-51556512","company":"Hopkins, Brock and Roberts","sensor_type":"AIR\/MOVEMENT","sensor_price":66.32,"sensor_ID":6},"8":{"sensor_name":"zJev-46169087","company":"Potter, Pennington and Chase","sensor_type":"AIR\/MOVEMENT","sensor_price":443.47,"sensor_ID":6},"9":{"sensor_name":"KOju-07739855","company":"Swanson-Jordan","sensor_type":"LDR","sensor_price":54.35,"sensor_ID":5},"10":{"sensor_name":"Ocht-29926800","company":"Rice LLC","sensor_type":"TEMPERATURE","sensor_price":189.67,"sensor_ID":2},"11":{"sensor_name":"rmYT-67057722","company":"Patterson, Wood and Blankenship","sensor_type":"AIR\/MOVEMENT","sensor_price":153.5,"sensor_ID":6},"12":{"sensor_name":"GmHD-03138188","company":"Rivera-Duran","sensor_type":"LDR","sensor_price":439.04,"sensor_ID":5},"13":{"sensor_name":"gnNv-35797962","company":"Hutchinson-Wiley","sensor_type":"TEMPERATURE","sensor_price":179.1,"sensor_ID":2},"14":{"sensor_name":"RXKn-39978584","company":"Little, Barr and Maxwell","sensor_type":"AIR\/MOVEMENT","sensor_price":94.96,"sensor_ID":6},"15":{"sensor_name":"BsQw-49539589","company":"Powers, Bennett and Walton","sensor_type":"AIR\/MOVEMENT","sensor_price":307.8,"sensor_ID":6},"16":{"sensor_name":"RwHJ-13654552","company":"Burch, Webb and Rogers","sensor_type":"TEMPERATURE","sensor_price":427.28,"sensor_ID":2},"17":{"sensor_name":"ODTW-68192856","company":"Norton Inc","sensor_type":"LDR","sensor_price":453.93,"sensor_ID":5},"18":{"sensor_name":"FSaD-83150389","company":"Warner Ltd","sensor_type":"LDR","sensor_price":148.94,"sensor_ID":5},"19":{"sensor_name":"uBYP-55540540","company":"Curry, Flores and Jones","sensor_type":"HUMIDITY","sensor_price":420.85,"sensor_ID":3},"20":{"sensor_name":"Ytwt-27299854","company":"Carlson-Ward","sensor_type":"TEMPERATURE","sensor_price":2.99,"sensor_ID":2},"21":{"sensor_name":"oDYt-89034136","company":"Cortez, Martinez and Ford","sensor_type":"HUMIDITY","sensor_price":37.78,"sensor_ID":3},"22":{"sensor_name":"nZCt-32922432","company":"Cox Ltd","sensor_type":"TEMPERATURE","sensor_price":330.91,"sensor_ID":2},"23":{"sensor_name":"kaUr-54981312","company":"Holland Inc","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":229.25,"sensor_ID":4},"24":{"sensor_name":"AJZr-03063526","company":"Turner, Spence and Mcdonald","sensor_type":"SOIL","sensor_price":370.67,"sensor_ID":1},"25":{"sensor_name":"mkzb-43135274","company":"Thomas LLC","sensor_type":"SOIL","sensor_price":417.93,"sensor_ID":1},"26":{"sensor_name":"VtPC-51385624","company":"Guzman-Mcpherson","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":153.66,"sensor_ID":4},"27":{"sensor_name":"wlAp-66877801","company":"Bryant, Rodriguez and Harrison","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":142.01,"sensor_ID":4},"28":{"sensor_name":"YcAT-98022783","company":"Robinson, Thomas and Kelly","sensor_type":"SOIL","sensor_price":335.74,"sensor_ID":1},"29":{"sensor_name":"TGYU-47481233","company":"Hernandez, Roberts and Vega","sensor_type":"HUMIDITY","sensor_price":44.76,"sensor_ID":3},"30":{"sensor_name":"bzhm-90139937","company":"Lawson and Sons","sensor_type":"TEMPERATURE","sensor_price":127.46,"sensor_ID":2},"31":{"sensor_name":"VZHP-36081866","company":"Palmer-Woods","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":138.09,"sensor_ID":4},"32":{"sensor_name":"FBZa-31993357","company":"Jimenez-Francis","sensor_type":"LDR","sensor_price":171.99,"sensor_ID":5},"33":{"sensor_name":"LCLt-94220634","company":"Montgomery-Edwards","sensor_type":"LDR","sensor_price":271.19,"sensor_ID":5},"34":{"sensor_name":"sEaR-52572758","company":"Padilla, Jones and Cline","sensor_type":"TEMPERATURE","sensor_price":496.7,"sensor_ID":2},"35":{"sensor_name":"NtnH-04690633","company":"Bell-Lopez","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":318.36,"sensor_ID":4},"36":{"sensor_name":"fmWB-28685858","company":"Harris, Case and Russell","sensor_type":"AIR\/MOVEMENT","sensor_price":427.88,"sensor_ID":6},"37":{"sensor_name":"upVB-40360118","company":"Johnson, Gill and Bradley","sensor_type":"LDR","sensor_price":282.5,"sensor_ID":5},"38":{"sensor_name":"HFVV-67193439","company":"Durham Ltd","sensor_type":"SOIL","sensor_price":373.88,"sensor_ID":1},"39":{"sensor_name":"frKT-57346898","company":"Rodriguez, Crawford and Marshall","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":446.3,"sensor_ID":4},"40":{"sensor_name":"EpSy-59995023","company":"Foster LLC","sensor_type":"TEMPERATURE","sensor_price":401.78,"sensor_ID":2},"41":{"sensor_name":"gYON-43861344","company":"Stephens-Farmer","sensor_type":"AIR\/MOVEMENT","sensor_price":457.93,"sensor_ID":6},"42":{"sensor_name":"zcFX-65342039","company":"Park, Jackson and Mccall","sensor_type":"TEMPERATURE","sensor_price":385.19,"sensor_ID":2},"43":{"sensor_name":"KIYz-70745365","company":"Dawson-Morse","sensor_type":"HUMIDITY","sensor_price":227.87,"sensor_ID":3},"44":{"sensor_name":"LpiL-47306952","company":"Carter Inc","sensor_type":"AIR\/MOVEMENT","sensor_price":202.47,"sensor_ID":6},"45":{"sensor_name":"InYV-15489778","company":"Hill-Lane","sensor_type":"AIR\/MOVEMENT","sensor_price":461.57,"sensor_ID":6},"46":{"sensor_name":"Tepe-39345674","company":"Elliott, Lowe and Bradley","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":106.38,"sensor_ID":4},"47":{"sensor_name":"ZOmG-63767070","company":"Hunt-Smith","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":221.87,"sensor_ID":4},"48":{"sensor_name":"hlSd-22658295","company":"Price-Morris","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":471.9,"sensor_ID":4},"49":{"sensor_name":"DZEC-00611254","company":"Mccoy-Hudson","sensor_type":"TEMPERATURE","sensor_price":489.72,"sensor_ID":2},"50":{"sensor_name":"HUBg-34424814","company":"Baker-Williams","sensor_type":"HUMIDITY","sensor_price":233.9,"sensor_ID":3},"51":{"sensor_name":"doJc-55186270","company":"Hall, Valenzuela and Aguilar","sensor_type":"HUMIDITY","sensor_price":54.19,"sensor_ID":3},"52":{"sensor_name":"qqSU-15380392","company":"Romero Group","sensor_type":"HUMIDITY","sensor_price":255.97,"sensor_ID":3},"53":{"sensor_name":"zmko-94029915","company":"Doyle-Wong","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":470.5,"sensor_ID":4},"54":{"sensor_name":"kNLQ-04781957","company":"Schmidt-Owens","sensor_type":"LDR","sensor_price":163.27,"sensor_ID":5},"55":{"sensor_name":"Ipxy-82722294","company":"Hall-Harris","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":36.59,"sensor_ID":4},"56":{"sensor_name":"vyjF-80800610","company":"Soto-Gutierrez","sensor_type":"SOIL","sensor_price":79.1,"sensor_ID":1},"57":{"sensor_name":"YssW-94570050","company":"Flores-Rosario","sensor_type":"HUMIDITY","sensor_price":470.98,"sensor_ID":3},"58":{"sensor_name":"Nrcu-01764462","company":"Smith Group","sensor_type":"LDR","sensor_price":168.35,"sensor_ID":5},"59":{"sensor_name":"QfSV-70721196","company":"Rocha, Franco and Tyler","sensor_type":"SOIL","sensor_price":140.52,"sensor_ID":1},"60":{"sensor_name":"ghgs-64790834","company":"Sanchez, Foster and Nash","sensor_type":"SOIL","sensor_price":128.04,"sensor_ID":1},"61":{"sensor_name":"nxul-54885747","company":"Jones, Davis and Riley","sensor_type":"LDR","sensor_price":100.69,"sensor_ID":5},"62":{"sensor_name":"TIAt-00956723","company":"Molina, Perkins and Jones","sensor_type":"HUMIDITY","sensor_price":97.67,"sensor_ID":3},"63":{"sensor_name":"VEch-95536206","company":"Mcdonald Inc","sensor_type":"HUMIDITY","sensor_price":414.87,"sensor_ID":3},"64":{"sensor_name":"Ypiq-77071997","company":"Burnett PLC","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":426.22,"sensor_ID":4},"65":{"sensor_name":"ZlTL-02510895","company":"Griffith-Kennedy","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":2.74,"sensor_ID":4},"66":{"sensor_name":"IXvd-43109338","company":"Jones PLC","sensor_type":"HUMIDITY","sensor_price":256.02,"sensor_ID":3},"67":{"sensor_name":"Zxgv-59195168","company":"Padilla Inc","sensor_type":"SOIL","sensor_price":325.89,"sensor_ID":1},"68":{"sensor_name":"qaVr-46572795","company":"Gonzalez, Mclaughlin and Mack","sensor_type":"SOIL","sensor_price":494.43,"sensor_ID":1},"69":{"sensor_name":"xbdm-75327610","company":"Kemp, Lewis and Cooper","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":379.9,"sensor_ID":4},"70":{"sensor_name":"nOwZ-63179101","company":"Newton-Clark","sensor_type":"LDR","sensor_price":251.14,"sensor_ID":5},"71":{"sensor_name":"EkuN-35594566","company":"Bullock Inc","sensor_type":"LDR","sensor_price":375.33,"sensor_ID":5},"72":{"sensor_name":"ROVH-18113538","company":"Mccoy, Austin and Hardin","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":243.84,"sensor_ID":4},"73":{"sensor_name":"gTXQ-98352432","company":"Hall, Osborne and Ferrell","sensor_type":"SOIL","sensor_price":311.95,"sensor_ID":1},"74":{"sensor_name":"hqUN-09229750","company":"Cooper Ltd","sensor_type":"AIR\/MOVEMENT","sensor_price":281.61,"sensor_ID":6},"75":{"sensor_name":"fEmX-08756024","company":"Walsh-Davis","sensor_type":"HUMIDITY","sensor_price":329.27,"sensor_ID":3},"76":{"sensor_name":"YbVF-51843051","company":"Lowery Inc","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":167.74,"sensor_ID":4},"77":{"sensor_name":"Bpty-17653612","company":"Griffin and Sons","sensor_type":"TEMPERATURE","sensor_price":77.57,"sensor_ID":2},"78":{"sensor_name":"uyDe-46056569","company":"Powell, Phillips and Cordova","sensor_type":"HUMIDITY","sensor_price":337.93,"sensor_ID":3},"79":{"sensor_name":"FQXE-64813358","company":"Charles, Williams and Pham","sensor_type":"LDR","sensor_price":354.75,"sensor_ID":5},"80":{"sensor_name":"EWMS-14116890","company":"Stafford-Conner","sensor_type":"TEMPERATURE","sensor_price":0.11,"sensor_ID":2},"81":{"sensor_name":"PHlY-75447798","company":"Duncan LLC","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":23.49,"sensor_ID":4},"82":{"sensor_name":"WoXO-54328878","company":"Lee, Fox and Moreno","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":12.46,"sensor_ID":4},"83":{"sensor_name":"EKTc-33800999","company":"Beltran, Ashley and Rivera","sensor_type":"LDR","sensor_price":311.95,"sensor_ID":5},"84":{"sensor_name":"zgWZ-37486527","company":"Hubbard-Foster","sensor_type":"LDR","sensor_price":143.75,"sensor_ID":5},"85":{"sensor_name":"ZVbg-10846522","company":"Williams-Santiago","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":492.13,"sensor_ID":4},"86":{"sensor_name":"rcNW-38856495","company":"Edwards, Gomez and Watson","sensor_type":"LDR","sensor_price":150.13,"sensor_ID":5},"87":{"sensor_name":"qvLS-92917335","company":"Rodriguez, Nichols and Baker","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":103.96,"sensor_ID":4},"88":{"sensor_name":"TPDo-49053358","company":"Washington-Miranda","sensor_type":"LDR","sensor_price":315.96,"sensor_ID":5},"89":{"sensor_name":"vGOr-65449733","company":"Edwards LLC","sensor_type":"SOIL","sensor_price":18.58,"sensor_ID":1},"90":{"sensor_name":"pfdX-84540080","company":"Ward, Marquez and Carson","sensor_type":"TEMPERATURE","sensor_price":179.78,"sensor_ID":2},"91":{"sensor_name":"nKhB-70288293","company":"Simmons Inc","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":264.22,"sensor_ID":4},"92":{"sensor_name":"vPnr-43458900","company":"Ochoa-Barber","sensor_type":"LDR","sensor_price":455.85,"sensor_ID":5},"93":{"sensor_name":"HTMX-06551967","company":"Page-Salazar","sensor_type":"LDR","sensor_price":488.34,"sensor_ID":5},"94":{"sensor_name":"Ixgb-26850714","company":"Carlson Inc","sensor_type":"SOIL","sensor_price":353.08,"sensor_ID":1},"95":{"sensor_name":"noDU-85289558","company":"Hawkins-Olsen","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":14.62,"sensor_ID":4},"96":{"sensor_name":"WIfP-79770965","company":"Griffin PLC","sensor_type":"TEMPERATURE","sensor_price":453.48,"sensor_ID":2},"97":{"sensor_name":"dMMI-74160138","company":"Schultz, Best and Morris","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":95.08,"sensor_ID":4},"98":{"sensor_name":"YYFr-54059758","company":"Wyatt, Higgins and Miranda","sensor_type":"LDR","sensor_price":87.81,"sensor_ID":5},"99":{"sensor_name":"wdYq-12682724","company":"Wilson, Woods and Krueger","sensor_type":"HUMIDITY","sensor_price":208.2,"sensor_ID":3},"100":{"sensor_name":"uQYH-83175616","company":"Wood LLC","sensor_type":"SOIL","sensor_price":13.74,"sensor_ID":1},"101":{"sensor_name":"MCdM-40180665","company":"Neal and Sons","sensor_type":"AIR\/MOVEMENT","sensor_price":449.16,"sensor_ID":6},"102":{"sensor_name":"qzhO-93297307","company":"Tate-Bush","sensor_type":"AIR\/MOVEMENT","sensor_price":436.52,"sensor_ID":6},"103":{"sensor_name":"BDBk-32114242","company":"Carter-Pruitt","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":371.24,"sensor_ID":4},"104":{"sensor_name":"aoGO-02143828","company":"Barton Inc","sensor_type":"AIR\/MOVEMENT","sensor_price":428.44,"sensor_ID":6},"105":{"sensor_name":"SPfW-88415587","company":"Mcdaniel, Sharp and Wilson","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":434.21,"sensor_ID":4},"106":{"sensor_name":"rKAH-71786882","company":"Robbins, Curry and Gibson","sensor_type":"SOIL","sensor_price":355.7,"sensor_ID":1},"107":{"sensor_name":"ctHA-40154127","company":"Smith, Lowery and Harris","sensor_type":"TEMPERATURE","sensor_price":313.36,"sensor_ID":2},"108":{"sensor_name":"wbVf-38231926","company":"Carey, Rose and Garcia","sensor_type":"LDR","sensor_price":374.11,"sensor_ID":5},"109":{"sensor_name":"jalG-59046332","company":"Bentley-Snow","sensor_type":"LDR","sensor_price":425.6,"sensor_ID":5},"110":{"sensor_name":"QJeA-86685249","company":"Jackson-Schmidt","sensor_type":"LDR","sensor_price":75.26,"sensor_ID":5},"111":{"sensor_name":"MblJ-30754397","company":"Collins, Santos and Parrish","sensor_type":"SOIL","sensor_price":130.62,"sensor_ID":1},"112":{"sensor_name":"MUpN-57207415","company":"Brown, Moore and Taylor","sensor_type":"SOIL","sensor_price":467.33,"sensor_ID":1},"113":{"sensor_name":"jYMW-75128531","company":"Diaz LLC","sensor_type":"TEMPERATURE","sensor_price":145.55,"sensor_ID":2},"114":{"sensor_name":"lytw-74433522","company":"Jones Ltd","sensor_type":"LDR","sensor_price":3.92,"sensor_ID":5},"115":{"sensor_name":"izoy-31678827","company":"Hill, Hall and Melton","sensor_type":"AIR\/MOVEMENT","sensor_price":152.61,"sensor_ID":6},"116":{"sensor_name":"wrdM-50073311","company":"Walker, Griffin and Miller","sensor_type":"SOIL","sensor_price":141.71,"sensor_ID":1},"117":{"sensor_name":"zRub-70938784","company":"Jones, Andrews and Edwards","sensor_type":"TEMPERATURE","sensor_price":241.04,"sensor_ID":2},"118":{"sensor_name":"tbeY-94978502","company":"Cardenas, Ramirez and Reyes","sensor_type":"SOIL","sensor_price":277.48,"sensor_ID":1},"119":{"sensor_name":"PyjY-66295524","company":"Martin LLC","sensor_type":"SOIL","sensor_price":258.38,"sensor_ID":1},"120":{"sensor_name":"SYxv-07147957","company":"Guerrero, Ford and Brooks","sensor_type":"TEMPERATURE","sensor_price":383.25,"sensor_ID":2},"121":{"sensor_name":"QtZl-50413035","company":"Mills, Young and Hernandez","sensor_type":"TEMPERATURE","sensor_price":254.44,"sensor_ID":2},"122":{"sensor_name":"AscR-96540057","company":"Walton Ltd","sensor_type":"TEMPERATURE","sensor_price":116.91,"sensor_ID":2},"123":{"sensor_name":"hZnZ-49733443","company":"Williams LLC","sensor_type":"TEMPERATURE","sensor_price":407.66,"sensor_ID":2},"124":{"sensor_name":"gDYP-12072062","company":"Crane-Gomez","sensor_type":"AIR\/MOVEMENT","sensor_price":406.18,"sensor_ID":6},"125":{"sensor_name":"AOPL-49163876","company":"Baxter-Hurst","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":157.46,"sensor_ID":4},"126":{"sensor_name":"yeqx-72015717","company":"Mcdaniel, Phillips and Madden","sensor_type":"SOIL","sensor_price":448.31,"sensor_ID":1},"127":{"sensor_name":"KfJf-19859548","company":"Murphy-Hill","sensor_type":"LDR","sensor_price":446.33,"sensor_ID":5},"128":{"sensor_name":"QoaU-48449593","company":"Stone, Gonzalez and Carpenter","sensor_type":"AIR\/MOVEMENT","sensor_price":237.36,"sensor_ID":6},"129":{"sensor_name":"HVPz-89070232","company":"Mullen-Mccullough","sensor_type":"TEMPERATURE","sensor_price":85.3,"sensor_ID":2},"130":{"sensor_name":"hLZR-66952984","company":"Martinez-Davis","sensor_type":"LDR","sensor_price":441.49,"sensor_ID":5},"131":{"sensor_name":"rwrF-54993770","company":"Turner-Morrison","sensor_type":"LDR","sensor_price":2.32,"sensor_ID":5},"132":{"sensor_name":"TooH-62019573","company":"Larsen-Thompson","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":146.59,"sensor_ID":4},"133":{"sensor_name":"PoiV-90705094","company":"Sexton, Boyle and Adkins","sensor_type":"SOIL","sensor_price":367.1,"sensor_ID":1},"134":{"sensor_name":"ausw-75509486","company":"Zimmerman Group","sensor_type":"AIR\/MOVEMENT","sensor_price":395.84,"sensor_ID":6},"135":{"sensor_name":"CpaL-73258239","company":"Curtis-Pratt","sensor_type":"TEMPERATURE","sensor_price":313.86,"sensor_ID":2},"136":{"sensor_name":"QlDM-05244212","company":"Moore PLC","sensor_type":"HUMIDITY","sensor_price":370.83,"sensor_ID":3},"137":{"sensor_name":"dmFp-10726020","company":"Waller, Fletcher and Jones","sensor_type":"AIR\/MOVEMENT","sensor_price":6.16,"sensor_ID":6},"138":{"sensor_name":"bnFE-39703783","company":"Cunningham Inc","sensor_type":"HUMIDITY","sensor_price":463.28,"sensor_ID":3},"139":{"sensor_name":"oJXr-81149339","company":"Greene LLC","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":364.03,"sensor_ID":4},"140":{"sensor_name":"oTLN-27983919","company":"Wong, Brown and Green","sensor_type":"AIR\/MOVEMENT","sensor_price":161.02,"sensor_ID":6},"141":{"sensor_name":"auTX-37036230","company":"Bell Inc","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":96.96,"sensor_ID":4},"142":{"sensor_name":"DOQp-11465883","company":"Estes, Davidson and Obrien","sensor_type":"HUMIDITY","sensor_price":375.19,"sensor_ID":3},"143":{"sensor_name":"nrIs-86959940","company":"Ritter Inc","sensor_type":"LDR","sensor_price":431.95,"sensor_ID":5},"144":{"sensor_name":"DWOC-76212098","company":"Smith Ltd","sensor_type":"TEMPERATURE","sensor_price":107.47,"sensor_ID":2},"145":{"sensor_name":"gWad-26427234","company":"Russell-Pope","sensor_type":"LDR","sensor_price":68.19,"sensor_ID":5},"146":{"sensor_name":"TPLO-49907149","company":"Greer Ltd","sensor_type":"LDR","sensor_price":117.09,"sensor_ID":5},"147":{"sensor_name":"ctZX-21944067","company":"Webb Ltd","sensor_type":"HUMIDITY","sensor_price":271.11,"sensor_ID":3},"148":{"sensor_name":"Amkp-38152934","company":"Chan Ltd","sensor_type":"TEMPERATURE","sensor_price":47.72,"sensor_ID":2},"149":{"sensor_name":"SpTk-00259623","company":"Lewis, Davis and Gardner","sensor_type":"SOIL","sensor_price":261.47,"sensor_ID":1},"150":{"sensor_name":"jFjs-97132991","company":"Moore PLC","sensor_type":"HUMIDITY","sensor_price":306.06,"sensor_ID":3},"151":{"sensor_name":"rAGM-93121221","company":"Shaffer LLC","sensor_type":"TEMPERATURE","sensor_price":253.06,"sensor_ID":2},"152":{"sensor_name":"IlBo-23784696","company":"Lin, Best and Morales","sensor_type":"TEMPERATURE","sensor_price":329.88,"sensor_ID":2},"153":{"sensor_name":"kGuc-70235651","company":"Thompson Inc","sensor_type":"SOIL","sensor_price":473.4,"sensor_ID":1},"154":{"sensor_name":"YpBA-68533263","company":"Walter-Robertson","sensor_type":"HUMIDITY","sensor_price":58.48,"sensor_ID":3},"155":{"sensor_name":"PyAY-62998845","company":"Lewis and Sons","sensor_type":"LDR","sensor_price":172.95,"sensor_ID":5},"156":{"sensor_name":"SOFR-16897279","company":"Hoffman LLC","sensor_type":"LDR","sensor_price":270.55,"sensor_ID":5},"157":{"sensor_name":"zjfK-74465056","company":"Rodriguez PLC","sensor_type":"HUMIDITY","sensor_price":351.17,"sensor_ID":3},"158":{"sensor_name":"cUBx-72571051","company":"Miller Group","sensor_type":"LDR","sensor_price":76.37,"sensor_ID":5},"159":{"sensor_name":"ezSB-99265229","company":"Miller Group","sensor_type":"LDR","sensor_price":152.82,"sensor_ID":5},"160":{"sensor_name":"SoKT-90640715","company":"Mullen, Hill and Walsh","sensor_type":"TEMPERATURE","sensor_price":167.75,"sensor_ID":2},"161":{"sensor_name":"VWuI-36901751","company":"Cook Group","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":106.79,"sensor_ID":4},"162":{"sensor_name":"ShbW-06298582","company":"Mills-Huff","sensor_type":"SOIL","sensor_price":323.66,"sensor_ID":1},"163":{"sensor_name":"ahHD-29139887","company":"Rivera, Griffin and Arroyo","sensor_type":"AIR\/MOVEMENT","sensor_price":104.04,"sensor_ID":6},"164":{"sensor_name":"Nqxr-65878662","company":"Davis-Martinez","sensor_type":"HUMIDITY","sensor_price":105.51,"sensor_ID":3},"165":{"sensor_name":"jLuz-89882856","company":"Pham, Mills and Levy","sensor_type":"LDR","sensor_price":412.46,"sensor_ID":5},"166":{"sensor_name":"gpDF-11477323","company":"Clarke Group","sensor_type":"TEMPERATURE","sensor_price":461.21,"sensor_ID":2},"167":{"sensor_name":"edos-19029993","company":"Green-Diaz","sensor_type":"LDR","sensor_price":311.1,"sensor_ID":5},"168":{"sensor_name":"KXlx-80345791","company":"Rodriguez-Hancock","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":177.17,"sensor_ID":4},"169":{"sensor_name":"PIeb-60674876","company":"Adams-Fox","sensor_type":"AIR\/MOVEMENT","sensor_price":273.41,"sensor_ID":6},"170":{"sensor_name":"eIMy-77633514","company":"Hendrix, Warren and Ayers","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":478.02,"sensor_ID":4},"171":{"sensor_name":"xImK-68167572","company":"Evans, Burgess and Robertson","sensor_type":"LDR","sensor_price":313.74,"sensor_ID":5},"172":{"sensor_name":"HnIN-95698164","company":"Patton, Ramirez and Patterson","sensor_type":"SOIL","sensor_price":90.71,"sensor_ID":1},"173":{"sensor_name":"dSiW-80011037","company":"Ross and Sons","sensor_type":"AIR\/MOVEMENT","sensor_price":317.64,"sensor_ID":6},"174":{"sensor_name":"HzKX-34667811","company":"Haley-Ellis","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":357.37,"sensor_ID":4},"175":{"sensor_name":"wYdS-15542636","company":"Lynn, Macdonald and Brewer","sensor_type":"TEMPERATURE","sensor_price":201.37,"sensor_ID":2},"176":{"sensor_name":"tneZ-46497595","company":"Alvarez, Valentine and Smith","sensor_type":"SOIL","sensor_price":205.81,"sensor_ID":1},"177":{"sensor_name":"nMpO-15699030","company":"Shelton Group","sensor_type":"LDR","sensor_price":333.87,"sensor_ID":5},"178":{"sensor_name":"HvDT-86782385","company":"Cook Group","sensor_type":"AIR\/MOVEMENT","sensor_price":244.99,"sensor_ID":6},"179":{"sensor_name":"YGQL-07537141","company":"Spence and Sons","sensor_type":"HUMIDITY","sensor_price":490.87,"sensor_ID":3},"180":{"sensor_name":"VWAr-85025814","company":"Williams Inc","sensor_type":"SOIL","sensor_price":173.55,"sensor_ID":1},"181":{"sensor_name":"dRMA-73948069","company":"Oconnor LLC","sensor_type":"SOIL","sensor_price":408.55,"sensor_ID":1},"182":{"sensor_name":"oMpq-37614780","company":"Cunningham, Stewart and Green","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":409.47,"sensor_ID":4},"183":{"sensor_name":"ZLpG-43867282","company":"Erickson, Burns and Patterson","sensor_type":"LDR","sensor_price":266.55,"sensor_ID":5},"184":{"sensor_name":"BkoC-86488316","company":"Hodge-Torres","sensor_type":"LDR","sensor_price":25.47,"sensor_ID":5},"185":{"sensor_name":"TRIr-10299551","company":"Logan-Ryan","sensor_type":"HUMIDITY","sensor_price":31.57,"sensor_ID":3},"186":{"sensor_name":"HUVj-95067942","company":"Wilson, Garcia and Warren","sensor_type":"SOIL","sensor_price":83.53,"sensor_ID":1},"187":{"sensor_name":"zfaZ-92619353","company":"Valencia, Warner and Villegas","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":449.79,"sensor_ID":4},"188":{"sensor_name":"UvyK-19450548","company":"Johnson-Stevens","sensor_type":"HUMIDITY","sensor_price":226.27,"sensor_ID":3},"189":{"sensor_name":"RPRf-68241801","company":"Cruz LLC","sensor_type":"LDR","sensor_price":399.57,"sensor_ID":5},"190":{"sensor_name":"jtJu-13702851","company":"Lewis, Clark and Arnold","sensor_type":"AIR\/MOVEMENT","sensor_price":270.38,"sensor_ID":6},"191":{"sensor_name":"Jdig-78961142","company":"Barry-Price","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":174.16,"sensor_ID":4},"192":{"sensor_name":"MesZ-22528528","company":"Wiggins, Thomas and Jones","sensor_type":"TEMPERATURE","sensor_price":107.22,"sensor_ID":2},"193":{"sensor_name":"ScQY-48315606","company":"Clark and Sons","sensor_type":"HUMIDITY","sensor_price":264.13,"sensor_ID":3},"194":{"sensor_name":"IYRY-95837680","company":"Wright, Smith and Hart","sensor_type":"AIR\/MOVEMENT","sensor_price":188.81,"sensor_ID":6},"195":{"sensor_name":"XWRe-61138807","company":"Harding-Rogers","sensor_type":"HUMIDITY","sensor_price":317.71,"sensor_ID":3},"196":{"sensor_name":"ToIZ-86485214","company":"Bowman-Howell","sensor_type":"LDR","sensor_price":80.14,"sensor_ID":5},"197":{"sensor_name":"Utyr-82359110","company":"Mooney-Ramos","sensor_type":"UV RADIATION\/LUMINOSITY","sensor_price":275.73,"sensor_ID":4},"198":{"sensor_name":"ewnn-94541621","company":"Price Group","sensor_type":"LDR","sensor_price":71.7,"sensor_ID":5},"199":{"sensor_name":"lghY-24360035","company":"Rose-Valdez","sensor_type":"LDR","sensor_price":211.15,"sensor_ID":5}}
+[
+  {
+    "ID": 199,
+    "type_id": 5,
+    "price": 211.15,
+    "type": "LDR",
+    "company": "Rose-Valdez",
+    "name": "lghY-24360035"
+  },
+  {
+    "ID": 198,
+    "type_id": 5,
+    "price": 71.7,
+    "type": "LDR",
+    "company": "Price Group",
+    "name": "ewnn-94541621"
+  },
+  {
+    "ID": 197,
+    "type_id": 4,
+    "price": 275.73,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Mooney-Ramos",
+    "name": "Utyr-82359110"
+  },
+  {
+    "ID": 196,
+    "type_id": 5,
+    "price": 80.14,
+    "type": "LDR",
+    "company": "Bowman-Howell",
+    "name": "ToIZ-86485214"
+  },
+  {
+    "ID": 195,
+    "type_id": 3,
+    "price": 317.71,
+    "type": "HUMIDITY",
+    "company": "Harding-Rogers",
+    "name": "XWRe-61138807"
+  },
+  {
+    "ID": 194,
+    "type_id": 6,
+    "price": 188.81,
+    "type": "AIR/MOVEMENT",
+    "company": "Wright, Smith and Hart",
+    "name": "IYRY-95837680"
+  },
+  {
+    "ID": 193,
+    "type_id": 3,
+    "price": 264.13,
+    "type": "HUMIDITY",
+    "company": "Clark and Sons",
+    "name": "ScQY-48315606"
+  },
+  {
+    "ID": 192,
+    "type_id": 2,
+    "price": 107.22,
+    "type": "TEMPERATURE",
+    "company": "Wiggins, Thomas and Jones",
+    "name": "MesZ-22528528"
+  },
+  {
+    "ID": 191,
+    "type_id": 4,
+    "price": 174.16,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Barry-Price",
+    "name": "Jdig-78961142"
+  },
+  {
+    "ID": 190,
+    "type_id": 6,
+    "price": 270.38,
+    "type": "AIR/MOVEMENT",
+    "company": "Lewis, Clark and Arnold",
+    "name": "jtJu-13702851"
+  },
+  {
+    "ID": 189,
+    "type_id": 5,
+    "price": 399.57,
+    "type": "LDR",
+    "company": "Cruz LLC",
+    "name": "RPRf-68241801"
+  },
+  {
+    "ID": 188,
+    "type_id": 3,
+    "price": 226.27,
+    "type": "HUMIDITY",
+    "company": "Johnson-Stevens",
+    "name": "UvyK-19450548"
+  },
+  {
+    "ID": 187,
+    "type_id": 4,
+    "price": 449.79,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Valencia, Warner and Villegas",
+    "name": "zfaZ-92619353"
+  },
+  {
+    "ID": 186,
+    "type_id": 1,
+    "price": 83.53,
+    "type": "SOIL",
+    "company": "Wilson, Garcia and Warren",
+    "name": "HUVj-95067942"
+  },
+  {
+    "ID": 185,
+    "type_id": 3,
+    "price": 31.57,
+    "type": "HUMIDITY",
+    "company": "Logan-Ryan",
+    "name": "TRIr-10299551"
+  },
+  {
+    "ID": 184,
+    "type_id": 5,
+    "price": 25.47,
+    "type": "LDR",
+    "company": "Hodge-Torres",
+    "name": "BkoC-86488316"
+  },
+  {
+    "ID": 183,
+    "type_id": 5,
+    "price": 266.55,
+    "type": "LDR",
+    "company": "Erickson, Burns and Patterson",
+    "name": "ZLpG-43867282"
+  },
+  {
+    "ID": 182,
+    "type_id": 4,
+    "price": 409.47,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Cunningham, Stewart and Green",
+    "name": "oMpq-37614780"
+  },
+  {
+    "ID": 181,
+    "type_id": 1,
+    "price": 408.55,
+    "type": "SOIL",
+    "company": "Oconnor LLC",
+    "name": "dRMA-73948069"
+  },
+  {
+    "ID": 180,
+    "type_id": 1,
+    "price": 173.55,
+    "type": "SOIL",
+    "company": "Williams Inc",
+    "name": "VWAr-85025814"
+  },
+  {
+    "ID": 179,
+    "type_id": 3,
+    "price": 490.87,
+    "type": "HUMIDITY",
+    "company": "Spence and Sons",
+    "name": "YGQL-07537141"
+  },
+  {
+    "ID": 178,
+    "type_id": 6,
+    "price": 244.99,
+    "type": "AIR/MOVEMENT",
+    "company": "Cook Group",
+    "name": "HvDT-86782385"
+  },
+  {
+    "ID": 177,
+    "type_id": 5,
+    "price": 333.87,
+    "type": "LDR",
+    "company": "Shelton Group",
+    "name": "nMpO-15699030"
+  },
+  {
+    "ID": 176,
+    "type_id": 1,
+    "price": 205.81,
+    "type": "SOIL",
+    "company": "Alvarez, Valentine and Smith",
+    "name": "tneZ-46497595"
+  },
+  {
+    "ID": 175,
+    "type_id": 2,
+    "price": 201.37,
+    "type": "TEMPERATURE",
+    "company": "Lynn, Macdonald and Brewer",
+    "name": "wYdS-15542636"
+  },
+  {
+    "ID": 174,
+    "type_id": 4,
+    "price": 357.37,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Haley-Ellis",
+    "name": "HzKX-34667811"
+  },
+  {
+    "ID": 173,
+    "type_id": 6,
+    "price": 317.64,
+    "type": "AIR/MOVEMENT",
+    "company": "Ross and Sons",
+    "name": "dSiW-80011037"
+  },
+  {
+    "ID": 172,
+    "type_id": 1,
+    "price": 90.71,
+    "type": "SOIL",
+    "company": "Patton, Ramirez and Patterson",
+    "name": "HnIN-95698164"
+  },
+  {
+    "ID": 171,
+    "type_id": 5,
+    "price": 313.74,
+    "type": "LDR",
+    "company": "Evans, Burgess and Robertson",
+    "name": "xImK-68167572"
+  },
+  {
+    "ID": 170,
+    "type_id": 4,
+    "price": 478.02,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Hendrix, Warren and Ayers",
+    "name": "eIMy-77633514"
+  },
+  {
+    "ID": 169,
+    "type_id": 6,
+    "price": 273.41,
+    "type": "AIR/MOVEMENT",
+    "company": "Adams-Fox",
+    "name": "PIeb-60674876"
+  },
+  {
+    "ID": 168,
+    "type_id": 4,
+    "price": 177.17,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Rodriguez-Hancock",
+    "name": "KXlx-80345791"
+  },
+  {
+    "ID": 167,
+    "type_id": 5,
+    "price": 311.1,
+    "type": "LDR",
+    "company": "Green-Diaz",
+    "name": "edos-19029993"
+  },
+  {
+    "ID": 166,
+    "type_id": 2,
+    "price": 461.21,
+    "type": "TEMPERATURE",
+    "company": "Clarke Group",
+    "name": "gpDF-11477323"
+  },
+  {
+    "ID": 165,
+    "type_id": 5,
+    "price": 412.46,
+    "type": "LDR",
+    "company": "Pham, Mills and Levy",
+    "name": "jLuz-89882856"
+  },
+  {
+    "ID": 164,
+    "type_id": 3,
+    "price": 105.51,
+    "type": "HUMIDITY",
+    "company": "Davis-Martinez",
+    "name": "Nqxr-65878662"
+  },
+  {
+    "ID": 163,
+    "type_id": 6,
+    "price": 104.04,
+    "type": "AIR/MOVEMENT",
+    "company": "Rivera, Griffin and Arroyo",
+    "name": "ahHD-29139887"
+  },
+  {
+    "ID": 162,
+    "type_id": 1,
+    "price": 323.66,
+    "type": "SOIL",
+    "company": "Mills-Huff",
+    "name": "ShbW-06298582"
+  },
+  {
+    "ID": 161,
+    "type_id": 4,
+    "price": 106.79,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Cook Group",
+    "name": "VWuI-36901751"
+  },
+  {
+    "ID": 160,
+    "type_id": 2,
+    "price": 167.75,
+    "type": "TEMPERATURE",
+    "company": "Mullen, Hill and Walsh",
+    "name": "SoKT-90640715"
+  },
+  {
+    "ID": 159,
+    "type_id": 5,
+    "price": 152.82,
+    "type": "LDR",
+    "company": "Miller Group",
+    "name": "ezSB-99265229"
+  },
+  {
+    "ID": 158,
+    "type_id": 5,
+    "price": 76.37,
+    "type": "LDR",
+    "company": "Miller Group",
+    "name": "cUBx-72571051"
+  },
+  {
+    "ID": 157,
+    "type_id": 3,
+    "price": 351.17,
+    "type": "HUMIDITY",
+    "company": "Rodriguez PLC",
+    "name": "zjfK-74465056"
+  },
+  {
+    "ID": 156,
+    "type_id": 5,
+    "price": 270.55,
+    "type": "LDR",
+    "company": "Hoffman LLC",
+    "name": "SOFR-16897279"
+  },
+  {
+    "ID": 155,
+    "type_id": 5,
+    "price": 172.95,
+    "type": "LDR",
+    "company": "Lewis and Sons",
+    "name": "PyAY-62998845"
+  },
+  {
+    "ID": 154,
+    "type_id": 3,
+    "price": 58.48,
+    "type": "HUMIDITY",
+    "company": "Walter-Robertson",
+    "name": "YpBA-68533263"
+  },
+  {
+    "ID": 153,
+    "type_id": 1,
+    "price": 473.4,
+    "type": "SOIL",
+    "company": "Thompson Inc",
+    "name": "kGuc-70235651"
+  },
+  {
+    "ID": 152,
+    "type_id": 2,
+    "price": 329.88,
+    "type": "TEMPERATURE",
+    "company": "Lin, Best and Morales",
+    "name": "IlBo-23784696"
+  },
+  {
+    "ID": 151,
+    "type_id": 2,
+    "price": 253.06,
+    "type": "TEMPERATURE",
+    "company": "Shaffer LLC",
+    "name": "rAGM-93121221"
+  },
+  {
+    "ID": 150,
+    "type_id": 3,
+    "price": 306.06,
+    "type": "HUMIDITY",
+    "company": "Moore PLC",
+    "name": "jFjs-97132991"
+  },
+  {
+    "ID": 149,
+    "type_id": 1,
+    "price": 261.47,
+    "type": "SOIL",
+    "company": "Lewis, Davis and Gardner",
+    "name": "SpTk-00259623"
+  },
+  {
+    "ID": 148,
+    "type_id": 2,
+    "price": 47.72,
+    "type": "TEMPERATURE",
+    "company": "Chan Ltd",
+    "name": "Amkp-38152934"
+  },
+  {
+    "ID": 147,
+    "type_id": 3,
+    "price": 271.11,
+    "type": "HUMIDITY",
+    "company": "Webb Ltd",
+    "name": "ctZX-21944067"
+  },
+  {
+    "ID": 146,
+    "type_id": 5,
+    "price": 117.09,
+    "type": "LDR",
+    "company": "Greer Ltd",
+    "name": "TPLO-49907149"
+  },
+  {
+    "ID": 145,
+    "type_id": 5,
+    "price": 68.19,
+    "type": "LDR",
+    "company": "Russell-Pope",
+    "name": "gWad-26427234"
+  },
+  {
+    "ID": 144,
+    "type_id": 2,
+    "price": 107.47,
+    "type": "TEMPERATURE",
+    "company": "Smith Ltd",
+    "name": "DWOC-76212098"
+  },
+  {
+    "ID": 143,
+    "type_id": 5,
+    "price": 431.95,
+    "type": "LDR",
+    "company": "Ritter Inc",
+    "name": "nrIs-86959940"
+  },
+  {
+    "ID": 142,
+    "type_id": 3,
+    "price": 375.19,
+    "type": "HUMIDITY",
+    "company": "Estes, Davidson and Obrien",
+    "name": "DOQp-11465883"
+  },
+  {
+    "ID": 141,
+    "type_id": 4,
+    "price": 96.96,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Bell Inc",
+    "name": "auTX-37036230"
+  },
+  {
+    "ID": 140,
+    "type_id": 6,
+    "price": 161.02,
+    "type": "AIR/MOVEMENT",
+    "company": "Wong, Brown and Green",
+    "name": "oTLN-27983919"
+  },
+  {
+    "ID": 139,
+    "type_id": 4,
+    "price": 364.03,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Greene LLC",
+    "name": "oJXr-81149339"
+  },
+  {
+    "ID": 138,
+    "type_id": 3,
+    "price": 463.28,
+    "type": "HUMIDITY",
+    "company": "Cunningham Inc",
+    "name": "bnFE-39703783"
+  },
+  {
+    "ID": 137,
+    "type_id": 6,
+    "price": 6.16,
+    "type": "AIR/MOVEMENT",
+    "company": "Waller, Fletcher and Jones",
+    "name": "dmFp-10726020"
+  },
+  {
+    "ID": 136,
+    "type_id": 3,
+    "price": 370.83,
+    "type": "HUMIDITY",
+    "company": "Moore PLC",
+    "name": "QlDM-05244212"
+  },
+  {
+    "ID": 135,
+    "type_id": 2,
+    "price": 313.86,
+    "type": "TEMPERATURE",
+    "company": "Curtis-Pratt",
+    "name": "CpaL-73258239"
+  },
+  {
+    "ID": 134,
+    "type_id": 6,
+    "price": 395.84,
+    "type": "AIR/MOVEMENT",
+    "company": "Zimmerman Group",
+    "name": "ausw-75509486"
+  },
+  {
+    "ID": 133,
+    "type_id": 1,
+    "price": 367.1,
+    "type": "SOIL",
+    "company": "Sexton, Boyle and Adkins",
+    "name": "PoiV-90705094"
+  },
+  {
+    "ID": 132,
+    "type_id": 4,
+    "price": 146.59,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Larsen-Thompson",
+    "name": "TooH-62019573"
+  },
+  {
+    "ID": 131,
+    "type_id": 5,
+    "price": 2.32,
+    "type": "LDR",
+    "company": "Turner-Morrison",
+    "name": "rwrF-54993770"
+  },
+  {
+    "ID": 130,
+    "type_id": 5,
+    "price": 441.49,
+    "type": "LDR",
+    "company": "Martinez-Davis",
+    "name": "hLZR-66952984"
+  },
+  {
+    "ID": 129,
+    "type_id": 2,
+    "price": 85.3,
+    "type": "TEMPERATURE",
+    "company": "Mullen-Mccullough",
+    "name": "HVPz-89070232"
+  },
+  {
+    "ID": 128,
+    "type_id": 6,
+    "price": 237.36,
+    "type": "AIR/MOVEMENT",
+    "company": "Stone, Gonzalez and Carpenter",
+    "name": "QoaU-48449593"
+  },
+  {
+    "ID": 127,
+    "type_id": 5,
+    "price": 446.33,
+    "type": "LDR",
+    "company": "Murphy-Hill",
+    "name": "KfJf-19859548"
+  },
+  {
+    "ID": 126,
+    "type_id": 1,
+    "price": 448.31,
+    "type": "SOIL",
+    "company": "Mcdaniel, Phillips and Madden",
+    "name": "yeqx-72015717"
+  },
+  {
+    "ID": 125,
+    "type_id": 4,
+    "price": 157.46,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Baxter-Hurst",
+    "name": "AOPL-49163876"
+  },
+  {
+    "ID": 124,
+    "type_id": 6,
+    "price": 406.18,
+    "type": "AIR/MOVEMENT",
+    "company": "Crane-Gomez",
+    "name": "gDYP-12072062"
+  },
+  {
+    "ID": 123,
+    "type_id": 2,
+    "price": 407.66,
+    "type": "TEMPERATURE",
+    "company": "Williams LLC",
+    "name": "hZnZ-49733443"
+  },
+  {
+    "ID": 122,
+    "type_id": 2,
+    "price": 116.91,
+    "type": "TEMPERATURE",
+    "company": "Walton Ltd",
+    "name": "AscR-96540057"
+  },
+  {
+    "ID": 121,
+    "type_id": 2,
+    "price": 254.44,
+    "type": "TEMPERATURE",
+    "company": "Mills, Young and Hernandez",
+    "name": "QtZl-50413035"
+  },
+  {
+    "ID": 120,
+    "type_id": 2,
+    "price": 383.25,
+    "type": "TEMPERATURE",
+    "company": "Guerrero, Ford and Brooks",
+    "name": "SYxv-07147957"
+  },
+  {
+    "ID": 119,
+    "type_id": 1,
+    "price": 258.38,
+    "type": "SOIL",
+    "company": "Martin LLC",
+    "name": "PyjY-66295524"
+  },
+  {
+    "ID": 118,
+    "type_id": 1,
+    "price": 277.48,
+    "type": "SOIL",
+    "company": "Cardenas, Ramirez and Reyes",
+    "name": "tbeY-94978502"
+  },
+  {
+    "ID": 117,
+    "type_id": 2,
+    "price": 241.04,
+    "type": "TEMPERATURE",
+    "company": "Jones, Andrews and Edwards",
+    "name": "zRub-70938784"
+  },
+  {
+    "ID": 116,
+    "type_id": 1,
+    "price": 141.71,
+    "type": "SOIL",
+    "company": "Walker, Griffin and Miller",
+    "name": "wrdM-50073311"
+  },
+  {
+    "ID": 115,
+    "type_id": 6,
+    "price": 152.61,
+    "type": "AIR/MOVEMENT",
+    "company": "Hill, Hall and Melton",
+    "name": "izoy-31678827"
+  },
+  {
+    "ID": 114,
+    "type_id": 5,
+    "price": 3.92,
+    "type": "LDR",
+    "company": "Jones Ltd",
+    "name": "lytw-74433522"
+  },
+  {
+    "ID": 113,
+    "type_id": 2,
+    "price": 145.55,
+    "type": "TEMPERATURE",
+    "company": "Diaz LLC",
+    "name": "jYMW-75128531"
+  },
+  {
+    "ID": 112,
+    "type_id": 1,
+    "price": 467.33,
+    "type": "SOIL",
+    "company": "Brown, Moore and Taylor",
+    "name": "MUpN-57207415"
+  },
+  {
+    "ID": 111,
+    "type_id": 1,
+    "price": 130.62,
+    "type": "SOIL",
+    "company": "Collins, Santos and Parrish",
+    "name": "MblJ-30754397"
+  },
+  {
+    "ID": 110,
+    "type_id": 5,
+    "price": 75.26,
+    "type": "LDR",
+    "company": "Jackson-Schmidt",
+    "name": "QJeA-86685249"
+  },
+  {
+    "ID": 109,
+    "type_id": 5,
+    "price": 425.6,
+    "type": "LDR",
+    "company": "Bentley-Snow",
+    "name": "jalG-59046332"
+  },
+  {
+    "ID": 108,
+    "type_id": 5,
+    "price": 374.11,
+    "type": "LDR",
+    "company": "Carey, Rose and Garcia",
+    "name": "wbVf-38231926"
+  },
+  {
+    "ID": 107,
+    "type_id": 2,
+    "price": 313.36,
+    "type": "TEMPERATURE",
+    "company": "Smith, Lowery and Harris",
+    "name": "ctHA-40154127"
+  },
+  {
+    "ID": 106,
+    "type_id": 1,
+    "price": 355.7,
+    "type": "SOIL",
+    "company": "Robbins, Curry and Gibson",
+    "name": "rKAH-71786882"
+  },
+  {
+    "ID": 105,
+    "type_id": 4,
+    "price": 434.21,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Mcdaniel, Sharp and Wilson",
+    "name": "SPfW-88415587"
+  },
+  {
+    "ID": 104,
+    "type_id": 6,
+    "price": 428.44,
+    "type": "AIR/MOVEMENT",
+    "company": "Barton Inc",
+    "name": "aoGO-02143828"
+  },
+  {
+    "ID": 103,
+    "type_id": 4,
+    "price": 371.24,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Carter-Pruitt",
+    "name": "BDBk-32114242"
+  },
+  {
+    "ID": 102,
+    "type_id": 6,
+    "price": 436.52,
+    "type": "AIR/MOVEMENT",
+    "company": "Tate-Bush",
+    "name": "qzhO-93297307"
+  },
+  {
+    "ID": 101,
+    "type_id": 6,
+    "price": 449.16,
+    "type": "AIR/MOVEMENT",
+    "company": "Neal and Sons",
+    "name": "MCdM-40180665"
+  },
+  {
+    "ID": 100,
+    "type_id": 1,
+    "price": 13.74,
+    "type": "SOIL",
+    "company": "Wood LLC",
+    "name": "uQYH-83175616"
+  },
+  {
+    "ID": 99,
+    "type_id": 3,
+    "price": 208.2,
+    "type": "HUMIDITY",
+    "company": "Wilson, Woods and Krueger",
+    "name": "wdYq-12682724"
+  },
+  {
+    "ID": 98,
+    "type_id": 5,
+    "price": 87.81,
+    "type": "LDR",
+    "company": "Wyatt, Higgins and Miranda",
+    "name": "YYFr-54059758"
+  },
+  {
+    "ID": 97,
+    "type_id": 4,
+    "price": 95.08,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Schultz, Best and Morris",
+    "name": "dMMI-74160138"
+  },
+  {
+    "ID": 96,
+    "type_id": 2,
+    "price": 453.48,
+    "type": "TEMPERATURE",
+    "company": "Griffin PLC",
+    "name": "WIfP-79770965"
+  },
+  {
+    "ID": 95,
+    "type_id": 4,
+    "price": 14.62,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Hawkins-Olsen",
+    "name": "noDU-85289558"
+  },
+  {
+    "ID": 94,
+    "type_id": 1,
+    "price": 353.08,
+    "type": "SOIL",
+    "company": "Carlson Inc",
+    "name": "Ixgb-26850714"
+  },
+  {
+    "ID": 93,
+    "type_id": 5,
+    "price": 488.34,
+    "type": "LDR",
+    "company": "Page-Salazar",
+    "name": "HTMX-06551967"
+  },
+  {
+    "ID": 92,
+    "type_id": 5,
+    "price": 455.85,
+    "type": "LDR",
+    "company": "Ochoa-Barber",
+    "name": "vPnr-43458900"
+  },
+  {
+    "ID": 91,
+    "type_id": 4,
+    "price": 264.22,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Simmons Inc",
+    "name": "nKhB-70288293"
+  },
+  {
+    "ID": 90,
+    "type_id": 2,
+    "price": 179.78,
+    "type": "TEMPERATURE",
+    "company": "Ward, Marquez and Carson",
+    "name": "pfdX-84540080"
+  },
+  {
+    "ID": 89,
+    "type_id": 1,
+    "price": 18.58,
+    "type": "SOIL",
+    "company": "Edwards LLC",
+    "name": "vGOr-65449733"
+  },
+  {
+    "ID": 88,
+    "type_id": 5,
+    "price": 315.96,
+    "type": "LDR",
+    "company": "Washington-Miranda",
+    "name": "TPDo-49053358"
+  },
+  {
+    "ID": 87,
+    "type_id": 4,
+    "price": 103.96,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Rodriguez, Nichols and Baker",
+    "name": "qvLS-92917335"
+  },
+  {
+    "ID": 86,
+    "type_id": 5,
+    "price": 150.13,
+    "type": "LDR",
+    "company": "Edwards, Gomez and Watson",
+    "name": "rcNW-38856495"
+  },
+  {
+    "ID": 85,
+    "type_id": 4,
+    "price": 492.13,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Williams-Santiago",
+    "name": "ZVbg-10846522"
+  },
+  {
+    "ID": 84,
+    "type_id": 5,
+    "price": 143.75,
+    "type": "LDR",
+    "company": "Hubbard-Foster",
+    "name": "zgWZ-37486527"
+  },
+  {
+    "ID": 83,
+    "type_id": 5,
+    "price": 311.95,
+    "type": "LDR",
+    "company": "Beltran, Ashley and Rivera",
+    "name": "EKTc-33800999"
+  },
+  {
+    "ID": 82,
+    "type_id": 4,
+    "price": 12.46,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Lee, Fox and Moreno",
+    "name": "WoXO-54328878"
+  },
+  {
+    "ID": 81,
+    "type_id": 4,
+    "price": 23.49,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Duncan LLC",
+    "name": "PHlY-75447798"
+  },
+  {
+    "ID": 80,
+    "type_id": 2,
+    "price": 0.11,
+    "type": "TEMPERATURE",
+    "company": "Stafford-Conner",
+    "name": "EWMS-14116890"
+  },
+  {
+    "ID": 79,
+    "type_id": 5,
+    "price": 354.75,
+    "type": "LDR",
+    "company": "Charles, Williams and Pham",
+    "name": "FQXE-64813358"
+  },
+  {
+    "ID": 78,
+    "type_id": 3,
+    "price": 337.93,
+    "type": "HUMIDITY",
+    "company": "Powell, Phillips and Cordova",
+    "name": "uyDe-46056569"
+  },
+  {
+    "ID": 77,
+    "type_id": 2,
+    "price": 77.57,
+    "type": "TEMPERATURE",
+    "company": "Griffin and Sons",
+    "name": "Bpty-17653612"
+  },
+  {
+    "ID": 76,
+    "type_id": 4,
+    "price": 167.74,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Lowery Inc",
+    "name": "YbVF-51843051"
+  },
+  {
+    "ID": 75,
+    "type_id": 3,
+    "price": 329.27,
+    "type": "HUMIDITY",
+    "company": "Walsh-Davis",
+    "name": "fEmX-08756024"
+  },
+  {
+    "ID": 74,
+    "type_id": 6,
+    "price": 281.61,
+    "type": "AIR/MOVEMENT",
+    "company": "Cooper Ltd",
+    "name": "hqUN-09229750"
+  },
+  {
+    "ID": 73,
+    "type_id": 1,
+    "price": 311.95,
+    "type": "SOIL",
+    "company": "Hall, Osborne and Ferrell",
+    "name": "gTXQ-98352432"
+  },
+  {
+    "ID": 72,
+    "type_id": 4,
+    "price": 243.84,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Mccoy, Austin and Hardin",
+    "name": "ROVH-18113538"
+  },
+  {
+    "ID": 71,
+    "type_id": 5,
+    "price": 375.33,
+    "type": "LDR",
+    "company": "Bullock Inc",
+    "name": "EkuN-35594566"
+  },
+  {
+    "ID": 70,
+    "type_id": 5,
+    "price": 251.14,
+    "type": "LDR",
+    "company": "Newton-Clark",
+    "name": "nOwZ-63179101"
+  },
+  {
+    "ID": 69,
+    "type_id": 4,
+    "price": 379.9,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Kemp, Lewis and Cooper",
+    "name": "xbdm-75327610"
+  },
+  {
+    "ID": 68,
+    "type_id": 1,
+    "price": 494.43,
+    "type": "SOIL",
+    "company": "Gonzalez, Mclaughlin and Mack",
+    "name": "qaVr-46572795"
+  },
+  {
+    "ID": 67,
+    "type_id": 1,
+    "price": 325.89,
+    "type": "SOIL",
+    "company": "Padilla Inc",
+    "name": "Zxgv-59195168"
+  },
+  {
+    "ID": 66,
+    "type_id": 3,
+    "price": 256.02,
+    "type": "HUMIDITY",
+    "company": "Jones PLC",
+    "name": "IXvd-43109338"
+  },
+  {
+    "ID": 65,
+    "type_id": 4,
+    "price": 2.74,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Griffith-Kennedy",
+    "name": "ZlTL-02510895"
+  },
+  {
+    "ID": 64,
+    "type_id": 4,
+    "price": 426.22,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Burnett PLC",
+    "name": "Ypiq-77071997"
+  },
+  {
+    "ID": 63,
+    "type_id": 3,
+    "price": 414.87,
+    "type": "HUMIDITY",
+    "company": "Mcdonald Inc",
+    "name": "VEch-95536206"
+  },
+  {
+    "ID": 62,
+    "type_id": 3,
+    "price": 97.67,
+    "type": "HUMIDITY",
+    "company": "Molina, Perkins and Jones",
+    "name": "TIAt-00956723"
+  },
+  {
+    "ID": 61,
+    "type_id": 5,
+    "price": 100.69,
+    "type": "LDR",
+    "company": "Jones, Davis and Riley",
+    "name": "nxul-54885747"
+  },
+  {
+    "ID": 60,
+    "type_id": 1,
+    "price": 128.04,
+    "type": "SOIL",
+    "company": "Sanchez, Foster and Nash",
+    "name": "ghgs-64790834"
+  },
+  {
+    "ID": 59,
+    "type_id": 1,
+    "price": 140.52,
+    "type": "SOIL",
+    "company": "Rocha, Franco and Tyler",
+    "name": "QfSV-70721196"
+  },
+  {
+    "ID": 58,
+    "type_id": 5,
+    "price": 168.35,
+    "type": "LDR",
+    "company": "Smith Group",
+    "name": "Nrcu-01764462"
+  },
+  {
+    "ID": 57,
+    "type_id": 3,
+    "price": 470.98,
+    "type": "HUMIDITY",
+    "company": "Flores-Rosario",
+    "name": "YssW-94570050"
+  },
+  {
+    "ID": 56,
+    "type_id": 1,
+    "price": 79.1,
+    "type": "SOIL",
+    "company": "Soto-Gutierrez",
+    "name": "vyjF-80800610"
+  },
+  {
+    "ID": 55,
+    "type_id": 4,
+    "price": 36.59,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Hall-Harris",
+    "name": "Ipxy-82722294"
+  },
+  {
+    "ID": 54,
+    "type_id": 5,
+    "price": 163.27,
+    "type": "LDR",
+    "company": "Schmidt-Owens",
+    "name": "kNLQ-04781957"
+  },
+  {
+    "ID": 53,
+    "type_id": 4,
+    "price": 470.5,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Doyle-Wong",
+    "name": "zmko-94029915"
+  },
+  {
+    "ID": 52,
+    "type_id": 3,
+    "price": 255.97,
+    "type": "HUMIDITY",
+    "company": "Romero Group",
+    "name": "qqSU-15380392"
+  },
+  {
+    "ID": 51,
+    "type_id": 3,
+    "price": 54.19,
+    "type": "HUMIDITY",
+    "company": "Hall, Valenzuela and Aguilar",
+    "name": "doJc-55186270"
+  },
+  {
+    "ID": 50,
+    "type_id": 3,
+    "price": 233.9,
+    "type": "HUMIDITY",
+    "company": "Baker-Williams",
+    "name": "HUBg-34424814"
+  },
+  {
+    "ID": 49,
+    "type_id": 2,
+    "price": 489.72,
+    "type": "TEMPERATURE",
+    "company": "Mccoy-Hudson",
+    "name": "DZEC-00611254"
+  },
+  {
+    "ID": 48,
+    "type_id": 4,
+    "price": 471.9,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Price-Morris",
+    "name": "hlSd-22658295"
+  },
+  {
+    "ID": 47,
+    "type_id": 4,
+    "price": 221.87,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Hunt-Smith",
+    "name": "ZOmG-63767070"
+  },
+  {
+    "ID": 46,
+    "type_id": 4,
+    "price": 106.38,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Elliott, Lowe and Bradley",
+    "name": "Tepe-39345674"
+  },
+  {
+    "ID": 45,
+    "type_id": 6,
+    "price": 461.57,
+    "type": "AIR/MOVEMENT",
+    "company": "Hill-Lane",
+    "name": "InYV-15489778"
+  },
+  {
+    "ID": 44,
+    "type_id": 6,
+    "price": 202.47,
+    "type": "AIR/MOVEMENT",
+    "company": "Carter Inc",
+    "name": "LpiL-47306952"
+  },
+  {
+    "ID": 43,
+    "type_id": 3,
+    "price": 227.87,
+    "type": "HUMIDITY",
+    "company": "Dawson-Morse",
+    "name": "KIYz-70745365"
+  },
+  {
+    "ID": 42,
+    "type_id": 2,
+    "price": 385.19,
+    "type": "TEMPERATURE",
+    "company": "Park, Jackson and Mccall",
+    "name": "zcFX-65342039"
+  },
+  {
+    "ID": 41,
+    "type_id": 6,
+    "price": 457.93,
+    "type": "AIR/MOVEMENT",
+    "company": "Stephens-Farmer",
+    "name": "gYON-43861344"
+  },
+  {
+    "ID": 40,
+    "type_id": 2,
+    "price": 401.78,
+    "type": "TEMPERATURE",
+    "company": "Foster LLC",
+    "name": "EpSy-59995023"
+  },
+  {
+    "ID": 39,
+    "type_id": 4,
+    "price": 446.3,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Rodriguez, Crawford and Marshall",
+    "name": "frKT-57346898"
+  },
+  {
+    "ID": 38,
+    "type_id": 1,
+    "price": 373.88,
+    "type": "SOIL",
+    "company": "Durham Ltd",
+    "name": "HFVV-67193439"
+  },
+  {
+    "ID": 37,
+    "type_id": 5,
+    "price": 282.5,
+    "type": "LDR",
+    "company": "Johnson, Gill and Bradley",
+    "name": "upVB-40360118"
+  },
+  {
+    "ID": 36,
+    "type_id": 6,
+    "price": 427.88,
+    "type": "AIR/MOVEMENT",
+    "company": "Harris, Case and Russell",
+    "name": "fmWB-28685858"
+  },
+  {
+    "ID": 35,
+    "type_id": 4,
+    "price": 318.36,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Bell-Lopez",
+    "name": "NtnH-04690633"
+  },
+  {
+    "ID": 34,
+    "type_id": 2,
+    "price": 496.7,
+    "type": "TEMPERATURE",
+    "company": "Padilla, Jones and Cline",
+    "name": "sEaR-52572758"
+  },
+  {
+    "ID": 33,
+    "type_id": 5,
+    "price": 271.19,
+    "type": "LDR",
+    "company": "Montgomery-Edwards",
+    "name": "LCLt-94220634"
+  },
+  {
+    "ID": 32,
+    "type_id": 5,
+    "price": 171.99,
+    "type": "LDR",
+    "company": "Jimenez-Francis",
+    "name": "FBZa-31993357"
+  },
+  {
+    "ID": 31,
+    "type_id": 4,
+    "price": 138.09,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Palmer-Woods",
+    "name": "VZHP-36081866"
+  },
+  {
+    "ID": 30,
+    "type_id": 2,
+    "price": 127.46,
+    "type": "TEMPERATURE",
+    "company": "Lawson and Sons",
+    "name": "bzhm-90139937"
+  },
+  {
+    "ID": 29,
+    "type_id": 3,
+    "price": 44.76,
+    "type": "HUMIDITY",
+    "company": "Hernandez, Roberts and Vega",
+    "name": "TGYU-47481233"
+  },
+  {
+    "ID": 28,
+    "type_id": 1,
+    "price": 335.74,
+    "type": "SOIL",
+    "company": "Robinson, Thomas and Kelly",
+    "name": "YcAT-98022783"
+  },
+  {
+    "ID": 27,
+    "type_id": 4,
+    "price": 142.01,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Bryant, Rodriguez and Harrison",
+    "name": "wlAp-66877801"
+  },
+  {
+    "ID": 26,
+    "type_id": 4,
+    "price": 153.66,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Guzman-Mcpherson",
+    "name": "VtPC-51385624"
+  },
+  {
+    "ID": 25,
+    "type_id": 1,
+    "price": 417.93,
+    "type": "SOIL",
+    "company": "Thomas LLC",
+    "name": "mkzb-43135274"
+  },
+  {
+    "ID": 24,
+    "type_id": 1,
+    "price": 370.67,
+    "type": "SOIL",
+    "company": "Turner, Spence and Mcdonald",
+    "name": "AJZr-03063526"
+  },
+  {
+    "ID": 23,
+    "type_id": 4,
+    "price": 229.25,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Holland Inc",
+    "name": "kaUr-54981312"
+  },
+  {
+    "ID": 22,
+    "type_id": 2,
+    "price": 330.91,
+    "type": "TEMPERATURE",
+    "company": "Cox Ltd",
+    "name": "nZCt-32922432"
+  },
+  {
+    "ID": 21,
+    "type_id": 3,
+    "price": 37.78,
+    "type": "HUMIDITY",
+    "company": "Cortez, Martinez and Ford",
+    "name": "oDYt-89034136"
+  },
+  {
+    "ID": 20,
+    "type_id": 2,
+    "price": 2.99,
+    "type": "TEMPERATURE",
+    "company": "Carlson-Ward",
+    "name": "Ytwt-27299854"
+  },
+  {
+    "ID": 19,
+    "type_id": 3,
+    "price": 420.85,
+    "type": "HUMIDITY",
+    "company": "Curry, Flores and Jones",
+    "name": "uBYP-55540540"
+  },
+  {
+    "ID": 18,
+    "type_id": 5,
+    "price": 148.94,
+    "type": "LDR",
+    "company": "Warner Ltd",
+    "name": "FSaD-83150389"
+  },
+  {
+    "ID": 17,
+    "type_id": 5,
+    "price": 453.93,
+    "type": "LDR",
+    "company": "Norton Inc",
+    "name": "ODTW-68192856"
+  },
+  {
+    "ID": 16,
+    "type_id": 2,
+    "price": 427.28,
+    "type": "TEMPERATURE",
+    "company": "Burch, Webb and Rogers",
+    "name": "RwHJ-13654552"
+  },
+  {
+    "ID": 15,
+    "type_id": 6,
+    "price": 307.8,
+    "type": "AIR/MOVEMENT",
+    "company": "Powers, Bennett and Walton",
+    "name": "BsQw-49539589"
+  },
+  {
+    "ID": 14,
+    "type_id": 6,
+    "price": 94.96,
+    "type": "AIR/MOVEMENT",
+    "company": "Little, Barr and Maxwell",
+    "name": "RXKn-39978584"
+  },
+  {
+    "ID": 13,
+    "type_id": 2,
+    "price": 179.1,
+    "type": "TEMPERATURE",
+    "company": "Hutchinson-Wiley",
+    "name": "gnNv-35797962"
+  },
+  {
+    "ID": 12,
+    "type_id": 5,
+    "price": 439.04,
+    "type": "LDR",
+    "company": "Rivera-Duran",
+    "name": "GmHD-03138188"
+  },
+  {
+    "ID": 11,
+    "type_id": 6,
+    "price": 153.5,
+    "type": "AIR/MOVEMENT",
+    "company": "Patterson, Wood and Blankenship",
+    "name": "rmYT-67057722"
+  },
+  {
+    "ID": 10,
+    "type_id": 2,
+    "price": 189.67,
+    "type": "TEMPERATURE",
+    "company": "Rice LLC",
+    "name": "Ocht-29926800"
+  },
+  {
+    "ID": 9,
+    "type_id": 5,
+    "price": 54.35,
+    "type": "LDR",
+    "company": "Swanson-Jordan",
+    "name": "KOju-07739855"
+  },
+  {
+    "ID": 8,
+    "type_id": 6,
+    "price": 443.47,
+    "type": "AIR/MOVEMENT",
+    "company": "Potter, Pennington and Chase",
+    "name": "zJev-46169087"
+  },
+  {
+    "ID": 7,
+    "type_id": 6,
+    "price": 66.32,
+    "type": "AIR/MOVEMENT",
+    "company": "Hopkins, Brock and Roberts",
+    "name": "OGOd-51556512"
+  },
+  {
+    "ID": 6,
+    "type_id": 3,
+    "price": 168.24,
+    "type": "HUMIDITY",
+    "company": "Wood Inc",
+    "name": "wzPu-74114686"
+  },
+  {
+    "ID": 5,
+    "type_id": 4,
+    "price": 204.42,
+    "type": "UV RADIATION/LUMINOSITY",
+    "company": "Wu Group",
+    "name": "mHKy-94918236"
+  },
+  {
+    "ID": 4,
+    "type_id": 1,
+    "price": 224.98,
+    "type": "SOIL",
+    "company": "George-Howell",
+    "name": "AdZS-48662324"
+  },
+  {
+    "ID": 3,
+    "type_id": 5,
+    "price": 374.37,
+    "type": "LDR",
+    "company": "Escobar, Jackson and Morris",
+    "name": "SDAn-14601214"
+  },
+  {
+    "ID": 2,
+    "type_id": 6,
+    "price": 411.44,
+    "type": "AIR/MOVEMENT",
+    "company": "Castillo Ltd",
+    "name": "wJEB-07130760"
+  },
+  {
+    "ID": 1,
+    "type_id": 3,
+    "price": 353.68,
+    "type": "HUMIDITY",
+    "company": "Snyder, Black and Boyer",
+    "name": "pJmI-52278892"
+  },
+  {
+    "ID": 0,
+    "type_id": 5,
+    "price": 211.87,
+    "type": "LDR",
+    "company": "Zimmerman Ltd",
+    "name": "yDeN-92616262"
+  }
+]
