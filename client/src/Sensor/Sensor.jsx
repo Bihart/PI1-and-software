@@ -1,11 +1,13 @@
 import React from 'react';
 
 function Sensor(props) {
-    return (
-        <tr>
-          {props.items.map( item => (<td>{item}</td>))}
-        </tr>
-    );
+  return (
+    <li>
+      <ul>
+        {props.items.map( item => (<li>{item}</li>))}
+      </ul>
+    </li>
+  );
 }
 
 export { Sensor };
