@@ -10,26 +10,15 @@ async function fetchData(host) {
     throw new Error(message);
   }
 
-  const data = await response.json();
-
-  return data;
+  return response.json();
 }
 
-const showData = () => {
+async function showData(){
   const host = '../../data.json' // client without server
   // const host = 'http:localhost:5000/api' // client whit server
-  // python server direction 'http://localhsot:5000/api'
-  fetchData(host).then((data) => {
-    // for(const index in data){
-    //   const obj = data[index];
-    //   for(const prop in obj){
-    //     console.log(`${prop}: ${obj[prop]}`)
-    //   }
-    // }
-    for(const item of data){
-      console.log(item);
-    }
-  });
+  const data = await fetchData(host)
+
+  console.log(data);
 };
 
 function Graph(){
