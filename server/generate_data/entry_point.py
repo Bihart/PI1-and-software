@@ -12,17 +12,15 @@ cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 
-class HelloWorld(Resource):
+class SensorApi(Resource):
     json = pd.read_json('outj2.json')
     to_json = json.to_dict()
     @cross_origin()
     def get(self):
         response=jsonify(self.to_json)
-        #return {'hello': 'world'}
-        #response.headers.add('Access-Control-Allow-Origin', '*')
         return response
 
-api.add_resource(HelloWorld, '/api')
+api.add_resource(SensorApi, '/api')
 
 def main():
     app.run(debug=True)
