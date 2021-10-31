@@ -5,46 +5,31 @@ from faker import Faker
 
 
 def fake_data():
+    """
+    Generate fake data for the app
+    """
     fake = Faker()
-    tipos = [
-        'SOIL',
-        'TEMPERATURE',
-        'HUMIDITY',
-        'UV RADIATION/LUMINOSITY',
-        'LDR',
-        'AIR/MOVEMENT'
-    ]
+    sensor_type_and_sensor_id = {
+        'SOIL': 1,
+        'TEMPERATURE': 2,
+        'HUMIDITY': 3,
+        'UV RADIATION/LUMINOSITY': 4,
+        'LDR': 5,
+        'AIR/MOVEMENT': 6
+    }
     sensors = [
         {
             'ID': x,
             'name': fake.bothify(text='????-########'),
             'company': fake.company(),
-            'type': np.random.choice(tipos),
+            'type': np.random.choice(sensor_type_and_sensor_id.keys()),
             'price': round(500*np.random.random_sample()+0, 2)
         }
         for x in range(200)]
 
     for sensor in sensors:
         sensor_type = sensor['type']
-        type_id = -1
-
-        if sensor_type == 'SOIL':
-            type_id = 1
-        elif sensor_type == 'TEMPERATURE':
-            type_id = 2
-        elif sensor_type == 'HUMIDITY':
-            type_id = 3
-        elif sensor_type == 'UV RADIATION/LUMINOSITY':
-            type_id = 4
-        elif sensor_type == 'LDR':
-            type_id = 5
-        elif sensor_type == 'AIR/MOVEMENT':
-            type_id = 6
-        else:
-            type_id = 0
-
-        sensor['type_id'] = type_id
-
+        sensor['type_id'] = sensor_type_and_sensor_id.get(sensor_type, -1)
     return sensors
 
 
