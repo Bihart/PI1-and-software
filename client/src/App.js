@@ -22,7 +22,8 @@ function App() {
     <Fragment>
       <div className="flex flex-row min-h-screen w-screen">
         <ul className="flex flex-col bg-gray-100 w-1/6">
-            <ItemNavBar id="Home"  onClick={changeView} value="Home"/>
+
+      <ItemNavBar id="Home"  onClick={changeView} value="Home"/>
             <ItemNavBar id="Info"  onClick={changeView} value="Info"/>
             <ItemNavBar id="Graph" onClick={changeView} value="Graph"/>
         </ul>

@@ -22,7 +22,7 @@ def fake_data():
             'ID': x,
             'name': fake.bothify(text='????-########'),
             'company': fake.company(),
-            'type': np.random.choice(sensor_type_and_sensor_id.keys()),
+            'type': np.random.choice([*sensor_type_and_sensor_id.keys()]),
             'price': round(500*np.random.random_sample()+0, 2)
         }
         for x in range(200)]
