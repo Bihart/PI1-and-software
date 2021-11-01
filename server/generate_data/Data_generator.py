@@ -1,4 +1,4 @@
-# from sklearn.cluster import KMeans
+#from sklearn.cluster import KMeans
 import pandas as pd
 import numpy as np
 from faker import Faker
@@ -22,7 +22,7 @@ def fake_data():
             'ID': x,
             'name': fake.bothify(text='????-########'),
             'company': fake.company(),
-            'type': np.random.choice(sensor_type_and_sensor_id.keys()),
+            'type': np.random.choice([*sensor_type_and_sensor_id.keys()]),
             'price': round(500*np.random.random_sample()+0, 2)
         }
         for x in range(200)]
@@ -44,16 +44,7 @@ def save_and_draw_data(data):
             data,
             columns=["sensor_name", "company", "sensor_type", "sensor_price"]
         )
-    make_sensors.to_json(
-        "/mnt/c/Users/noinn/OneDrive/Escritorio/outj.json",
-    )
-    a = pd.read_json(
-        "/mnt/c/Users/noinn/OneDrive/Escritorio/outj.json"
-    )
-    print(a)
 
-    a.to_json("/mnt/c/Users/noinn/OneDrive/Escritorio/outj2.json",
-              orient="index")
     # k_means = KMeans(
     #     init='random', n_clusters=3, n_init=30, random_state=42 )
     # colores=k_means.fit_predict(lista_clost)

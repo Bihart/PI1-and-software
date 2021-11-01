@@ -4,6 +4,7 @@ from flask_restful import Resource, Api
 from flask_cors import CORS, cross_origin
 import pandas as pd
 import variables
+from grupo import Grupo
 
 app = Flask(__name__)
 api = Api(app)
@@ -17,16 +18,18 @@ class SensorApi(Resource):
     to_json = json.to_dict()
     @cross_origin()
     def get(self):
-        response=jsonify(self.to_json)
+        response  = jsonify(self.to_json)
         return response
 
     def post(self):
-        json_variables = request.get_json(force = True)
-        valor_area = json_variables["area"]
-        valor_presupuesto = json_variables["presupuesto"]
+        form_variables = request.form
+        valor_area = float(form_variables["metros_cuadrados"])
+        valor_presupuesto = float(form_variables["presupuesto"])
 
         return variables.presupuesto_area(valor_area, valor_presupuesto)
+
 api.add_resource(SensorApi, '/api')
+api.add_resource(Grupo, '/resultado')
 
 def main():
     app.run(debug=True)
