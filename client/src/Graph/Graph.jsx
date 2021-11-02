@@ -23,12 +23,12 @@ async function fetchData()
 
 const renderThing = (state, {sensors, isFetch}) => {
   if(!isFetch)
-    return undefined
+    return ( <svg id="histograma"></svg> );
   switch (state) {
     case "sensor":
       return <Sensor data={sensors}/>;
     case "histogram":
-      return <Histogram data={sensors.map(item => item['price'])}/>;
+      return <Histogram data={sensors.map(item => item['price'])} />;
     default:
       return undefined;
   }
@@ -72,7 +72,7 @@ function Graph(){
 
   return (
     <Fragment>
-      <div className="flex">
+      <div id="botonesxd" className="flex">
         <GraphButton onClick={showData} text="List of the sensors" />
         <GraphButton onClick={showHistogram} text="Show the Histogram" />
       </div>
