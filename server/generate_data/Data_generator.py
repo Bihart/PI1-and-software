@@ -4,9 +4,11 @@ import numpy as np
 from faker import Faker
 
 
-def fake_data():
+def fake_data(number_of_sensors: int):
     """
     Generate fake data for the app
+
+    :param: n : int -> Inticate the number o sensors to generate
     """
     fake = Faker()
     sensor_type_and_sensor_id = {
@@ -25,7 +27,7 @@ def fake_data():
             'type': np.random.choice([*sensor_type_and_sensor_id.keys()]),
             'price': round(500*np.random.random_sample()+0, 2)
         }
-        for x in range(200)]
+        for x in range(number_of_sensors)]
 
     for sensor in sensors:
         sensor_type = sensor['type']
@@ -35,7 +37,7 @@ def fake_data():
 
 def main():
     """ Entrypoint of the program """
-    my_data = fake_data()
+    my_data = fake_data(200)
     df_sensor = pd.DataFrame(my_data)
     df_sensor.to_json("./out2.json", orient="records")
 
