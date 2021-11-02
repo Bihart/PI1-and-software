@@ -6,12 +6,12 @@ function Sensor({data})
     <ul className="list-decimal">
       {data.map( ({ID, type_id, price, type, company, name}) => {
         return (
-          <li>Name: {name}
-            <ul key={ID} className="list-disc">
-              <li>Type id: {type_id}</li>
-              <li>Price: {price}</li>
-              <li>Type: {type}</li>
-              <li>Company: {company}</li>
+          <li key={ID} >Name: {name}
+            <ul className="list-disc">
+              <li key="0">Type id: {type_id}</li>
+              <li key="1">Price: {price}</li>
+              <li key="2">Type: {type}</li>
+              <li key="3">Company: {company}</li>
             </ul>
           </li>
         )})}
