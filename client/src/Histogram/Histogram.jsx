@@ -1,7 +1,7 @@
 import React, { Fragment, useRef, useEffect, useState } from 'react';
 import * as d3 from 'd3';
 
-function drawHist(reference, data, nBin)
+function setup(reference, data)
 {
   let max = d3.max(data) + 10;
   let min = d3.min(data) - 10;
@@ -32,8 +32,11 @@ function drawHist(reference, data, nBin)
 
   const yAxis = svg.append("g");
 
-  function update(nBin)
-  {
+  return [svg, height, x, y, yAxis];
+}
+
+function update(data, nBin, [svg, height, x, y, yAxis])
+{
     const histogram = d3.bin()
                         .value((d) => d)
                         .domain(x.domain())
@@ -59,24 +62,31 @@ function drawHist(reference, data, nBin)
      .attr("width", function(d) { return x(d.x1) - x(d.x0) -1 ; })
      .attr("height", function(d) { return height - y(d.length); })
      .style("fill", "#69b3a2")
-  }
-  update(nBin);
 }
 
 function Histogram({data}) {
 
   const plot1 = useRef(null);
+  const needles = useRef([]);
 
   const [nBins, setnBins ] = useState(20);
 
+  useEffect(() => {
+    needles.current  = setup(plot1, data);
+    update(data, nBins, needles.current);
+  }, [] );
+
+  useEffect(() => {
+    update(data, nBins, needles.current);
+  }, [data, nBins]);
+
   const handleOnChange = (e) => {
     const newValue = e.target.value;
-    if(newValue > 30 || newValue < 1){
+    if(newValue > 100 || newValue < 1){
       setnBins(20);
     } else {
       setnBins(newValue);
     }
-    drawHist(plot1, data, nBins);
   }
 
   return (
@@ -86,8 +96,8 @@ function Histogram({data}) {
         <label># bins</label>
         <input type="number"
                min="1"
-               max="30"
-               step="5"
+               max="20"
+               step="4"
                value={nBins}
                id="nBin"
                onChange={handleOnChange}/>
