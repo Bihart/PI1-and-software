@@ -2,12 +2,31 @@ import React, { Fragment, useState } from 'react';
 import { GraphButton } from '../GraphButton/GraphButton';
 import { Sensor  } from '../Sensor/Sensor';
 import { Histogram } from '../Histogram/Histogram';
+import { ScatterPlot } from '../ScatterPlot/ScatterPlot';
 
-async function fetchData()
+async function fetchData(type_of_fetch)
 {
+<<<<<<< HEAD
   const host = 'http://localhost:5000/api' // client whit server
   // const host = '../../data.json'; // client without server
 
+=======
+  let host = ""
+  switch (type_of_fetch) {
+  case "test":
+    host = "../../data.json";
+    break;
+  case "groups":
+    host = "http://localhost:5000/resultado";
+    break;
+  case "sensors":
+  case "histogram":
+    host = "http://localhost:5000/api";
+    break;
+  default:
+    host = "../../data.json";
+  }
+>>>>>>> ScatterPlo
   const response = await fetch(host);
   console.log(response);
 
@@ -21,19 +40,29 @@ async function fetchData()
 
   return data_petition;
 };
-
-const renderThing = (state, {sensors, isFetch}) => {
-  if(!isFetch)
-    return ( <svg id="histograma"></svg> );
-  switch (state) {
-    case "sensor":
-      return <Sensor data={sensors}/>;
-    case "histogram":
-      return <Histogram data={sensors.map(item => item['price'])} />;
-    default:
-      return undefined;
-  }
-};
+const renderThing = (
+  state,
+  {sensors, isFetch},
+  {groups, isFetch_1}) => {
+    if( state === "sensor" || state === "histogram" ){
+      if(!isFetch)
+        return null;
+      switch (state) {
+      case "sensor":
+        return <Sensor data={sensors}/>;
+      case "histogram":
+        return <Histogram data={sensors.map(item => item['price'])} />;
+      default:
+        return null;
+      }
+    }
+    else
+    {
+      if(!isFetch_1)
+        return null;
+      return  <ScatterPlot data={groups} />;
+    }
+  };
 
 function Graph(){
 
@@ -43,41 +72,53 @@ function Graph(){
     isFetch: false
   });
 
+  const [ groups, setGroups ] = useState({
+    groups: [],
+    isFetch_1: false
+  })
+
   const [ state, setState ] = useState("");
 
-  async function showData()
+  async function showThing(e)
   {
-    const data_petition = await fetchData();
+    const new_value  = e.target.value;
+    let data_petition = null;
 
-    if(!data.isFetch)
-      setData({
-        sensors: [...data_petition],
-        isFetch: true
-      });
-
-    if(state !== "sensor")
-      setState("sensor")
-  };
-
-  async function showHistogram()
-  {
-    const data_petition = await fetchData();
-    if(!data.isFetch)
-      setData({
-        sensors: [...data_petition],
-        isFetch: true
-      });
-    if(state !== "histogram")
-      setState("histogram")
+    if( new_value === "sensor" || new_value === "histogram"){
+      data_petition = await fetchData(new_value);
+      if(!data.isFetch)
+        setData({
+          sensors: [...data_petition],
+          isFetch: true
+        });
+    }
+    else
+    {
+      if(!groups.isFetch_1)
+        data_petition = await fetchData("groups");
+        setGroups({
+          groups: [...data_petition],
+          isFetch_1: true
+        });
+    }
+    if(state !== new_value)
+      setState(new_value);
   };
 
   return (
     <Fragment>
-      <div id="botonesxd" className="flex">
-        <GraphButton onClick={showData} text="Lista de sensores" />
-        <GraphButton onClick={showHistogram} text="Mostrar histograma" />
+      <div className="flex">
+        <GraphButton onClick={showThing}
+                     text="List of the sensors"
+                     value="sensor"/>
+        <GraphButton onClick={showThing}
+                     text="Show the Histogram"
+                     value="histogram"/>
+        <GraphButton onClick={showThing}
+                     text="Show the Scatter Plot"
+                     value="scatterPlot"/>
       </div>
-      {renderThing(state, data)}
+      {renderThing(state, data, groups)}
     </Fragment>
   )
 }
