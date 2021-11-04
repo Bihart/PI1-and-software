@@ -6,11 +6,6 @@ import { ScatterPlot } from '../ScatterPlot/ScatterPlot';
 
 async function fetchData(type_of_fetch)
 {
-<<<<<<< HEAD
-  const host = 'http://localhost:5000/api' // client whit server
-  // const host = '../../data.json'; // client without server
-
-=======
   let host = ""
   switch (type_of_fetch) {
   case "test":
@@ -26,9 +21,8 @@ async function fetchData(type_of_fetch)
   default:
     host = "../../data.json";
   }
->>>>>>> ScatterPlo
+
   const response = await fetch(host);
-  console.log(response);
 
   if(!response.ok)
   {
@@ -94,8 +88,8 @@ function Graph(){
     }
     else
     {
+      data_petition = await fetchData("groups");
       if(!groups.isFetch_1)
-        data_petition = await fetchData("groups");
         setGroups({
           groups: [...data_petition],
           isFetch_1: true
@@ -106,6 +100,7 @@ function Graph(){
   };
 
   return (
+
     <Fragment>
       <div className="flex">
         <GraphButton onClick={showThing}

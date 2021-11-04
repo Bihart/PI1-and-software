@@ -36,3 +36,4 @@ yarn-debug.log*
 yarn-error.log*
 
 server/generate_data/venv
+/server/generate_data/__pycache__/
