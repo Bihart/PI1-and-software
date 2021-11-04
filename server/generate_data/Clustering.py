@@ -24,7 +24,9 @@ def clustering(data):
     # paint.scatter(x, y, c=colores)
     # paint.title("grafica prueba")
     # paint.show()
-    return np.ndarray.tolist(colores)
+    tags = np.ndarray.tolist(colores)
+    parejas = [{'x':i, 'y':j, 'tag':k } for i, j, k in zip(x, y, tags)]
+    return parejas
 
 
 

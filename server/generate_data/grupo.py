@@ -11,7 +11,7 @@ import Data_generator
 class Grupo(Resource):
     @cross_origin()
     def get(self):
-        lista = Data_generator.fake_data()
+        lista = Data_generator.fake_data(300)
         data = [[i['price'], i['type_id']] for i in lista]
         response = Clustering.clustering(data)
         response = jsonify(response)

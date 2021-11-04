@@ -5,10 +5,11 @@ import { Histogram } from '../Histogram/Histogram';
 
 async function fetchData()
 {
-  // const host = 'http:localhost:5000/api' // client whit server
-  const host = '../../data.json'; // client without server
+  const host = 'http://localhost:5000/api' // client whit server
+  // const host = '../../data.json'; // client without server
 
   const response = await fetch(host);
+  console.log(response);
 
   if(!response.ok)
   {
@@ -73,8 +74,8 @@ function Graph(){
   return (
     <Fragment>
       <div id="botonesxd" className="flex">
-        <GraphButton onClick={showData} text="List of the sensors" />
-        <GraphButton onClick={showHistogram} text="Show the Histogram" />
+        <GraphButton onClick={showData} text="Lista de sensores" />
+        <GraphButton onClick={showHistogram} text="Mostrar histograma" />
       </div>
       {renderThing(state, data)}
     </Fragment>

@@ -4,6 +4,7 @@ from flask_restful import Resource, Api
 from flask_cors import CORS, cross_origin
 import pandas as pd
 import variables
+import Data_generator
 from grupo import Grupo
 
 app = Flask(__name__)
@@ -14,11 +15,10 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 
 class SensorApi(Resource):
-    json = pd.read_json('outj2.json')
-    to_json = json.to_dict()
+    json = Data_generator.fake_data(300)
     @cross_origin()
     def get(self):
-        response  = jsonify(self.to_json)
+        response  = jsonify(self.json)
         return response
 
     def post(self):

@@ -6,7 +6,7 @@ function setup(reference, data)
   let max = d3.max(data) + 10;
   let min = d3.min(data) - 10;
 
-  const margin = { top: 10, right: 30, bottom: 30, left: 40},
+  const margin = { top: 40, right: 30, bottom: 60, left: 40},
         width = 720 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
 
@@ -25,6 +25,28 @@ function setup(reference, data)
   svg.append("g")
      .attr("transform", `translate(0, ${height})`)
      .call(d3.axisBottom(x));
+
+  svg.append("text")
+     .attr("class", "x label")
+     .attr("text-anchor", "end")
+     .attr("x", width / 2)
+     .attr("y", height + 40)
+     .text("Precio de sensores");
+
+  svg.append("text")
+     .attr("class", "title label")
+     .attr("text-anchor", "end")
+     .attr("x", width / 2)
+     .attr("y", - 10)
+     .text("Histograma");
+
+  svg.append("text")
+     .attr("class", "y label")
+     .attr("text-anchor", "end")
+     .attr("y", - 39)
+     .attr("dy", ".75em")
+     .attr("transform", "rotate(-90)")
+     .text("Número de sensores");
 
   // y axis: initilization
   const y = d3.scaleLinear()
