@@ -6,6 +6,7 @@ import variables
 import Data_generator
 from grupo import Grupo
 
+
 app = Flask(__name__)
 api = Api(app)
 
