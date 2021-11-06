@@ -5,6 +5,7 @@ from flask_cors import CORS, cross_origin
 import variables
 import Data_generator
 from grupo import Grupo
+from custom_entry import CustomData
 
 app = Flask(__name__)
 api = Api(app)
@@ -40,6 +41,7 @@ class SensorApi(Resource):
 
 api.add_resource(SensorApi, '/api')
 api.add_resource(Grupo, '/resultado')
+api.add_resource(CustomData, '/user_request')
 
 
 def main():

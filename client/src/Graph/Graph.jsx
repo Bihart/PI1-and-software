@@ -104,13 +104,13 @@ function Graph(){
     <Fragment>
       <div className="flex">
         <GraphButton onClick={showThing}
-                     text="List of the sensors"
+                     text="Lista de sensores"
                      value="sensor"/>
         <GraphButton onClick={showThing}
-                     text="Show the Histogram"
+                     text="Mostrar histograma"
                      value="histogram"/>
         <GraphButton onClick={showThing}
-                     text="Show the Scatter Plot"
+                     text="Mostrar Scatter Plot"
                      value="scatterPlot"/>
       </div>
       {renderThing(state, data, groups)}
