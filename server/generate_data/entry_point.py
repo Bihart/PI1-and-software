@@ -7,6 +7,7 @@ import Data_generator
 from grupo import Grupo
 from custom_entry import CustomData
 
+
 app = Flask(__name__)
 api = Api(app)
 

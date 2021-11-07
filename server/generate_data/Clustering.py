@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 from sklearn.cluster import KMeans
-import pandas as pd
 import numpy as np
 import Data_generator
 

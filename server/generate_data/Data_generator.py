@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import pandas as pd
 import numpy as np
 from faker import Faker
 
@@ -33,14 +32,3 @@ def fake_data(number_of_sensors: int):
         sensor_type = sensor['type']
         sensor['type_id'] = sensor_type_and_sensor_id.get(sensor_type, -1)
     return sensors
-
-
-def main():
-    """ Entrypoint of the program """
-    my_data = fake_data(200)
-    df_sensor = pd.DataFrame(my_data)
-    df_sensor.to_json("./out2.json", orient="records")
-
-
-if __name__ == '__main__':
-    main()

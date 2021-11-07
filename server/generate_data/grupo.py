@@ -2,7 +2,6 @@
 from flask import Flask, jsonify, request
 from flask_restful import Resource, Api
 from flask_cors import CORS, cross_origin
-import pandas as pd
 import Clustering
 import Data_generator
 
