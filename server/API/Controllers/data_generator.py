@@ -2,7 +2,7 @@
 from flask import jsonify, request
 from flask_restful import Resource
 from flask_cors import cross_origin
-from .. Services . data_generator import data_generator as SDataGenerator
+from Services.data_generator import data_generator as SDataGenerator
 
 
 class SensorGenerator(Resource):  # pylint: disable=too-few-public-methods
@@ -20,6 +20,6 @@ class SensorGenerator(Resource):  # pylint: disable=too-few-public-methods
             """
             return message, 400
 
-        json = SDataGenerator(n_data)
-        response = jsonify(json)
+        data_to_send = SDataGenerator(n_data)
+        response = jsonify(data_to_send)
         return response
