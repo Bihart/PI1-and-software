@@ -1,1 +1,0 @@
-se agregaron las dependencias: pandas, numpy y faker, flask, CORS.
