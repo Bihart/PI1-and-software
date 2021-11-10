@@ -38,3 +38,4 @@ yarn-error.log*
 server/generate_data/venv
 /server/generate_data/__pycache__/
 **/__pycache__/
+/logs/
