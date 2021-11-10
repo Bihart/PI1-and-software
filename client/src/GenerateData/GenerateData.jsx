@@ -10,7 +10,7 @@ function GenerateData({onSubmit}) {
              id="n_data"
              name="n_data"
              step="1"
-             min="0"
+             min="3"
              max="10000"
              className="m-1"/>
       <button

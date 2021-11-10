@@ -21,7 +21,6 @@ function Graph(){
       isFetch: true
     });
 
-    console.log(data);
     document.getElementById("n_data").value = "";
   }
 
@@ -29,7 +28,10 @@ function Graph(){
 
     <Fragment>
       <GenerateData onSubmit={anyThing} />
-      <Actions data={data.sensors} isActive={data.isFetch}/>
+    { data.isFetch?
+     <Actions data={data.sensors} isActive={data.isFetch}/>
+     : undefined }
+
     </Fragment>
   )
 }

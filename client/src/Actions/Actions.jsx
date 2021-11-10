@@ -4,23 +4,36 @@ import { Sensor  } from '../Sensor/Sensor';
 import { Histogram } from '../Histogram/Histogram';
 import { ScatterPlot } from '../ScatterPlot/ScatterPlot';
 
-const renderThing = (state, data) => {
-    switch (state) {
-      case "sensor":
-        return <Sensor data={data}/>;
-      case "histogram":
-        return <Histogram data={data.map(item => item['price'])} />;
-      case "groups":
-        return  <ScatterPlot data={data} />;
-    }
-  };
+const renderThing = (state, data, groups) => {
+  switch (state) {
+  case "sensor":
+    return <Sensor data={data}/>;
+  case "histogram":
+    return <Histogram data={data.map(item => item['price'])} />;
+  case "groups":
+    return  <ScatterPlot data={groups} />;
+  default:
+    return undefined;
+  }
+};
 
 function Actions({data}) {
 
-
-
-
   const [ state, setState ] = useState("");
+  const [ groups, setGroups ] = useState([]);
+
+  useEffect(() => {
+    const petition = {
+      method: 'POST',
+      body: JSON.stringify(data)
+    }
+
+    fetch('http://localhost:5000/grupos', petition)
+      .then(res => res.json())
+      .then(data => setGroups(data));
+  }, [data] );
+
+
 
   const showThing = (e) => {
     const new_value = e.target.value;
@@ -31,37 +44,20 @@ function Actions({data}) {
     setState(new_value)
   }
 
-  useEffect(() => {
-    const hola = async (arg) => {
-      const data = await fetch(
-        'http://localhost:5000/grupos',
-        {
-          method: 'POST',
-          body: JSON.stringify(arg)
-        })
-            .then(res => res.json())
-
-      console.log(data);
-    }
-
-    hola(data)
-  }, [data] );
-
-
   return (
     <Fragment>
-        <div className="flex">
-          <GraphButton onClick={showThing}
-                       text="Lista de sensores"
-                       value="sensor"/>
-          <GraphButton onClick={showThing}
-                       text="Mostrar histograma"
-                       value="histogram"/>
-          <GraphButton onClick={showThing}
-                       text="Mostrar Scatter Plot"
-                       value="scatterPlot"/>
+      <div className="flex">
+        <GraphButton onClick={showThing}
+                     text="Lista de sensores"
+                     value="sensor"/>
+        <GraphButton onClick={showThing}
+                     text="Mostrar histograma"
+                     value="histogram"/>
+        <GraphButton onClick={showThing}
+                     text="Mostrar Scatter Plot"
+                     value="groups"/>
       </div>
-    {renderThing(state, data)}
+      {renderThing(state, data, groups)}
     </Fragment>
   )
 };
