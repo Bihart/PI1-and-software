@@ -7,10 +7,10 @@ function setup(reference, data)
   const dataY = data.map(item => item['y']);
 
   let minX = d3.min(dataX);
-  let maxX = d3.max(dataX);
+  let maxX = d3.max(dataX) + 10;
 
   let minY = d3.min(dataY);
-  let maxY = d3.max(dataY);
+  let maxY = d3.max(dataY) + 1;
 
   const margin = {top: 10, right: 30, bottom: 30, left: 60},
         width = 720 - margin.left - margin.right,
@@ -35,12 +35,17 @@ function setup(reference, data)
   const y = d3.scaleLinear()
               .domain([Math.min(0, minY), maxY])
               .range([ height, 0]);
-  svg.append("g")
-     .call(d3.axisLeft(y));
+  const yAxis =  svg.append("g")
+                    .call(d3.axisLeft(y));
+
+  return [svg, x, y, yAxis]
+}
+
+function update(data, [svg, x, y, yAxis]) {
 
   const color = d3.scaleOrdinal()
                   .domain([0, 1, 2 ])
-                  .range([ "#440154ff", "#21908dff", "#fde725ff"])
+                  .range([ "#0154ff", "#908dff", "#e725ff"])
 
   svg.append('g')
      .selectAll("dot")
@@ -48,20 +53,31 @@ function setup(reference, data)
      .join("circle")
      .attr("cx", function (d) { return x(d['x']); } )
      .attr("cy", function (d) { return y(d['y']); } )
-     .attr("r", 5)
+     .attr("r", 3)
      .style("fill", function (d) { return color(d['tag']) } )
+     .attr("class", "else")
+     .transition()
+     .duration(1000)
 
 }
 
 function ScatterPlot({data}) {
 
-  const myRef = useRef(null);
+  const plot = useRef(null);
+  const pre_state = useRef([]);
 
   useEffect(() => {
-    setup(myRef, data);
-  }, [data]);
+    pre_state.current = setup(plot, data);
+    update(data, pre_state.current)
+  }, [] );
 
-   return ( <div ref={myRef}></div> )
+  useEffect(() => {
+    const [svg]  = pre_state.current
+    svg.selectAll(".else").remove();
+    update(data, pre_state.current)
+  }, [data] );
+
+  return ( <div ref={plot}></div> );
 }
 
 export { ScatterPlot };
