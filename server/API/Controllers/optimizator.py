@@ -5,9 +5,8 @@ from Services.optimizator import presupuesto_by_area as SOptimizator
 
 
 class Optimizator(Resource):
-    def post(self):
-        form_variables = request.form
-        valor_area = float(form_variables["metros_cuadrados"])
-        valor_presupuesto = float(form_variables["presupuesto"])
+    def get(self):
+        valor_area = request.args.get('metros_cuadrados', default=-1, type=int)
+        valor_presupuesto = request.args.get('presupuesto', default=-1, type=int)
 
-        return SOptimizator(valor_area, valor_presupuesto), 201
+        return SOptimizator(valor_area, valor_presupuesto), 200

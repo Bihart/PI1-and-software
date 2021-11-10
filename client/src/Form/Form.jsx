@@ -3,16 +3,7 @@ import React from 'react';
 function Form(){
     return (
         <div>
-            <form action="http://localhost:5000/api" method="POST">
-                {/* <div> */}
-                {/*     <label htmlFor="upgrade_file"> */}
-                {/*       Select the file to send: */}
-                {/*         <input type="file" */}
-                {/*             id="upgrade_file" */}
-                {/*             name="upgrade_file" */}
-                {/*             accept=".csv, .json, .xml"/> */}
-                {/*     </label> */}
-                {/* </div> */}
+            <form action="http://localhost:5000/optimizator" method="GET">
               <div>
                 <label htmlFor="metros_cuadrados">
                   Metros Cuadrados:

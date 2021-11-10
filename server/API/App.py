@@ -11,7 +11,7 @@ def main():
     api = Api(app)
     app.config['CORS_HEADERS'] = 'Content-Type'
     api.add_resource(CSensorGenerator, '/api')
-    api.add_resource(COptimizator, '/api')
+    api.add_resource(COptimizator, '/optimizator')
     api.add_resource(CClustering, '/grupos')
     app.run(debug=True)
 
