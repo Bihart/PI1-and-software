@@ -10,7 +10,9 @@ class Clustering(Resource):
     @cross_origin()
     def post(self):
         data = request.get_json(force=True)
-        data_split = [[x['price'], x['type_id']] for x in data]
+        # data_split = [[sensor['price'], sensor['type_id']] for sensor in data['data']] separación de el numero que quiere el usuario y la data
+        data_split = [[sensor['price'], sensor['type_id']] for sensor in data]
+        #number_groups = data['n_clusters'] futuro responsive de los numeros de clusters
         data_clustering = SClustering(data_split, n_clusters=3)
         response = jsonify(data_clustering)
         return response, 200
