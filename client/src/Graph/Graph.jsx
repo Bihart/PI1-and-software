@@ -13,7 +13,8 @@ function Graph(){
   const anyThing = async (e) => {
     e.preventDefault();
     const n_data = document.getElementById("n_data").value;
-    const data = await fetch(`http://localhost:5000/api?n_data=${n_data}`)
+    const host = (numberOfData) => `http://localhost:5000/api?n_data=${n_data}`
+    const data = await fetch(host(n_data))
           .then(res => res.json())
 
     setData({
@@ -25,13 +26,13 @@ function Graph(){
   }
 
   return (
-
     <Fragment>
       <GenerateData onSubmit={anyThing} />
-    { data.isFetch?
-     <Actions data={data.sensors} isActive={data.isFetch}/>
-     : undefined }
-
+      {
+        data.isFetch?
+        <Actions data={data.sensors} isActive={data.isFetch}/> :
+        undefined
+      }
     </Fragment>
   )
 }

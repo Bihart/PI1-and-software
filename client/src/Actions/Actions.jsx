@@ -23,17 +23,20 @@ function Actions({data}) {
   const [ groups, setGroups ] = useState([]);
 
   useEffect(() => {
+
+    const host = 'http://localhost:5000/grupos'
     const petition = {
       method: 'POST',
-      body: JSON.stringify(data)
+      body: JSON.stringify({
+        n_clusters: 3,
+        data: [...data]
+      })
     }
 
-    fetch('http://localhost:5000/grupos', petition)
+    fetch(host , petition)
       .then(res => res.json())
       .then(data => setGroups(data));
   }, [data] );
-
-
 
   const showThing = (e) => {
     const new_value = e.target.value;

@@ -1,83 +1,62 @@
-import React, { useEffect, useRef } from 'react';
-import * as d3 from 'd3';
+import React, { Fragment, useEffect, useRef, useState } from 'react';
+import { setup, update } from './DrawerScatterPlot';
 
-function setup(reference, data)
-{
-  const dataX = data.map(item => item['x']);
-  const dataY = data.map(item => item['y']);
+const useClusters = (nCluster) => {
+  const [nClusters, setnClusters] = useState(nCluster);
 
-  let minX = d3.min(dataX);
-  let maxX = d3.max(dataX) + 10;
+  const changeNClusters = (newNCluster) => {
+    newNCluster > 20 || newNCluster < 3 ?
+      setnClusters(3) :
+      setnClusters(newNCluster);
+  }
 
-  let minY = d3.min(dataY);
-  let maxY = d3.max(dataY) + 1;
-
-  const margin = {top: 10, right: 30, bottom: 30, left: 60},
-        width = 720 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
-
-  // append the svg object to the body of the page
-  const svg = d3.select(reference.current)
-                .append("svg")
-                .attr("width", width + margin.left + margin.right)
-                .attr("height", height + margin.top + margin.bottom)
-                .append("g")
-                .attr("transform",
-                      `translate(${margin.left}, ${margin.top})`);
-
-  const x = d3.scaleLinear()
-              .domain([Math.min(0, minX), maxX])
-              .range([ 0, width ]);
-  svg.append("g")
-     .attr("transform", `translate(0, ${height})`)
-     .call(d3.axisBottom(x));
-
-  const y = d3.scaleLinear()
-              .domain([Math.min(0, minY), maxY])
-              .range([ height, 0]);
-  const yAxis =  svg.append("g")
-                    .call(d3.axisLeft(y));
-
-  return [svg, x, y, yAxis]
+  return [nClusters, changeNClusters ]
 }
 
-function update(data, [svg, x, y, yAxis]) {
-
-  const color = d3.scaleOrdinal()
-                  .domain([0, 1, 2 ])
-                  .range([ "#0154ff", "#908dff", "#e725ff"])
-
-  svg.append('g')
-     .selectAll("dot")
-     .data(data)
-     .join("circle")
-     .attr("cx", function (d) { return x(d['x']); } )
-     .attr("cy", function (d) { return y(d['y']); } )
-     .attr("r", 3)
-     .style("fill", function (d) { return color(d['tag']) } )
-     .attr("class", "else")
-     .transition()
-     .duration(1000)
-
-}
 
 function ScatterPlot({data}) {
 
   const plot = useRef(null);
   const pre_state = useRef([]);
 
+  const [nClusters, setNClusters] = useClusters(3);
+
   useEffect(() => {
-    pre_state.current = setup(plot, data);
-    update(data, pre_state.current)
+    pre_state.current = setup(data, plot);
+    update(data,
+           pre_state.current,
+           [0,1,2],
+           ["#0154ff", "#908dff", "#e725ff"])
   }, [] );
 
   useEffect(() => {
-    const [svg]  = pre_state.current
-    svg.selectAll(".else").remove();
-    update(data, pre_state.current)
+    update(data,
+           pre_state.current,
+           [0,1,2],
+           ["#0154ff", "#908dff", "#e725ff"])
   }, [data] );
 
-  return ( <div ref={plot}></div> );
+  const handleOnChange = (e) => {
+    const newNumberOfClusters = e.target.value;
+    setNClusters(newNumberOfClusters)
+  };
+
+  return (
+    <Fragment>
+      <div ref={plot}></div>
+      <p>
+        <label># clusters</label>
+        <input type="number"
+               min="3"
+               max="20"
+               step="2"
+               value={nClusters}
+               id="nBin"
+               onChange={handleOnChange}/>
+      </p>
+    </Fragment>
+
+  );
 }
 
 export { ScatterPlot };
