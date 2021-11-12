@@ -10,9 +10,16 @@ function setup(reference, data)
                 .append("svg")
                 .attr("width", width + margin.left + margin.right)
                 .attr("height", height + margin.top + margin.bottom)
+                .attr("class", "bg-gray-100")
                 .append("g")
                 .attr("transform",
                       `translate(${margin.left},${margin.top})`);
+
+  // svg.append("rect")
+  //    .attr("width", "100%")
+  //    .attr("height", "100%")
+  //    .attr("fill", "WhiteSmoke");
+
 
   // x axis: initilization
   const x = d3.scaleLinear()

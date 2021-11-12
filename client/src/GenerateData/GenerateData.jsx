@@ -12,7 +12,8 @@ function GenerateData({onSubmit}) {
              step="1"
              min="3"
              max="10000"
-             className="m-1"/>
+             className="m-1"
+             required/>
       <button
         className="bg-red-300 p-1">
         Request

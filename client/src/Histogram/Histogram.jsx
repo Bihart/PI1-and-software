@@ -45,7 +45,8 @@ function Histogram({data}) {
                step="4"
                value={nBins}
                id="nBin"
-               onChange={handleOnChange}/>
+               onChange={handleOnChange}
+        />
       </p>
     </Fragment>
   );

@@ -1,4 +1,5 @@
 import React, { Fragment, useEffect, useRef, useState } from 'react';
+import { range,palleteColor } from './util'
 import { setup, update } from './DrawerScatterPlot';
 
 const useClusters = (nCluster) => {
@@ -23,17 +24,14 @@ function ScatterPlot({data}) {
 
   useEffect(() => {
     pre_state.current = setup(data, plot);
-    update(data,
-           pre_state.current,
-           [0,1,2],
-           ["#0154ff", "#908dff", "#e725ff"])
   }, [] );
 
   useEffect(() => {
+    const myColors = ["#0154ff", "#909dff", "#e725ff"];
     update(data,
            pre_state.current,
-           [0,1,2],
-           ["#0154ff", "#908dff", "#e725ff"])
+           range(3),
+           palleteColor(myColors));
   }, [data] );
 
   const handleOnChange = (e) => {

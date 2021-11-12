@@ -15,9 +15,10 @@ function setup(data, reference)
                 .append("svg")
                 .attr("width", width + margin.left + margin.right)
                 .attr("height", height + margin.top + margin.bottom)
+                .attr("class", "bg-gray-100")
                 .append("g")
                 .attr("transform",
-                      `translate(${margin.left}, ${margin.top})`);
+                      `translate(${margin.left}, ${margin.top})`)
 
   const x = d3.scaleLinear()
               .range([ 0, width ]);
