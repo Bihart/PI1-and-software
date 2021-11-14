@@ -4,14 +4,30 @@ import { Sensor  } from '../Sensor/Sensor';
 import { Histogram } from '../Histogram/Histogram';
 import { ScatterPlot } from '../ScatterPlot/ScatterPlot';
 
-const renderThing = (state, data, groups) => {
+const useClusters = (nCluster) => {
+  const [nClusters, setnClusters] = useState(nCluster);
+
+  const changeNClusters = (newNCluster) => {
+    newNCluster > 20 || newNCluster < 3 ?
+      setnClusters(3) :
+      setnClusters(newNCluster);
+  }
+
+  return [nClusters, changeNClusters ]
+}
+
+const renderThing = (state, data, groups, nClusters, handleOnChange) => {
   switch (state) {
   case "sensor":
     return <Sensor data={data}/>;
   case "histogram":
     return <Histogram data={data.map(item => item['price'])} />;
   case "groups":
-    return  <ScatterPlot data={groups} />;
+      return  (
+        <ScatterPlot data={groups}
+                     nClusters={nClusters}
+                     onChange={handleOnChange}/>
+      );
   default:
     return undefined;
   }
@@ -21,6 +37,14 @@ function Actions({data}) {
 
   const [ state, setState ] = useState("");
   const [ groups, setGroups ] = useState([]);
+  const [ nClusters, setNClusters ] = useClusters(3);
+
+
+  function handleOnChange (e) {
+    console.log(this);
+    const newNumberOfClusters = e.target.value;
+    setNClusters(newNumberOfClusters)
+  };
 
   useEffect(() => {
 
@@ -28,7 +52,7 @@ function Actions({data}) {
     const petition = {
       method: 'POST',
       body: JSON.stringify({
-        n_clusters: 3,
+        n_clusters: parseInt(nClusters, 10),
         data: [...data]
       })
     }
@@ -36,7 +60,7 @@ function Actions({data}) {
     fetch(host , petition)
       .then(res => res.json())
       .then(data => setGroups(data));
-  }, [data] );
+  }, [data, nClusters] );
 
   const showThing = (e) => {
     const new_value = e.target.value;
@@ -60,7 +84,7 @@ function Actions({data}) {
                      text="Mostrar Scatter Plot"
                      value="groups"/>
       </div>
-      {renderThing(state, data, groups)}
+      {renderThing(state, data, groups, nClusters,  handleOnChange)}
     </Fragment>
   )
 };
