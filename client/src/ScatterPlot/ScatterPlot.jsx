@@ -12,15 +12,15 @@ function ScatterPlot({data, nClusters, onChange}) {
   }, [] );
 
   useEffect(() => {
-    const myColors = ["#0154ff", "#909dff", "#e725ff"];
-    const palleteOfColors = palleteColor(myColors);
+    const myColors = ["#ff0000", "#00ff00", "#0000ff"];
+    const palleteOfColors = palleteColor(myColors, nClusters);
     console.log(palleteOfColors);
     update(data,
            pre_state.current,
            range(nClusters),
            palleteOfColors
           );
-  }, [data, nClusters] );
+  }, [data] );
 
   return (
     <Fragment>
@@ -29,7 +29,7 @@ function ScatterPlot({data, nClusters, onChange}) {
         <label># clusters</label>
         <input type="number"
                min="3"
-               max="20"
+               max={data.length}
                step="2"
                value={nClusters}
                id="numclustrs"

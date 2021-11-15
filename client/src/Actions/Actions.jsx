@@ -4,7 +4,7 @@ import { Sensor  } from '../Sensor/Sensor';
 import { Histogram } from '../Histogram/Histogram';
 import { ScatterPlot } from '../ScatterPlot/ScatterPlot';
 
-const useClusters = (nCluster) => {
+const useClusters = (nCluster, upperNumber) => {
   const [nClusters, setnClusters] = useState(nCluster);
 
   const changeNClusters = (newNCluster) => {
