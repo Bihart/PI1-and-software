@@ -14,6 +14,12 @@ class Clustering(Resource):
                       for sensor in data['data']] # separación de el numero que quiere el usuario y la data
         # data_split = [[sensor['price'], sensor['type_id']] for sensor in data]
         number_groups = data['n_clusters'] #  futuro responsive de los numeros de clusters
-        data_clustering = SClustering(data_split, n_clusters=number_groups)
-        response = jsonify(data_clustering)
-        return response, 200
+
+        if (number_groups <= len(data_split)):
+                data_clustering = SClustering(data_split, n_clusters=number_groups)
+                response = jsonify(data_clustering)
+                return response, 200
+        else:
+            print("numero de grupos mayor al numero de datos")
+            response = jsonify(data_clustering)
+            return response, 500
