@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Form(){
-
+function Form()
+{
   const[optimo, setOptimo] = React.useState("")
 
   async function onSubmit(e) {
