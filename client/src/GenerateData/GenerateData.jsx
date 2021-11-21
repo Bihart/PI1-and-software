@@ -4,7 +4,7 @@ function GenerateData({onSubmit}) {
   return (
     <form onSubmit={onSubmit}>
       <label htmlFor="n_data">
-        Enter the number of data you wnat to use:
+        Seleccione el número de datos que quiere usar:
       </label>
       <input type="number"
              id="n_data"

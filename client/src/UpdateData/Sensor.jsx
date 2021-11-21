@@ -15,7 +15,7 @@ function Sensor({data})
                accept=".json"/>
       </div>
       <div>
-      <button>Submit</button>
+        <button>Submit</button>
       </div>
     </form>
   );
