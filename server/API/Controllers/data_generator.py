@@ -7,6 +7,8 @@ from Services.data_generator import data_generator as SDataGenerator
 
 class SensorGenerator(Resource):  # pylint: disable=too-few-public-methods
     "Principal entry point to generate data"
+    n_data = int
+    response = None
 
     @cross_origin()
     def get(self):

@@ -6,6 +6,9 @@ from Services.clustering import clustering as SClustering
 
 
 class Clustering(Resource):
+    data = None
+    number_groups = int
+    response = None
 
     @cross_origin()
     def post(self):

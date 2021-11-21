@@ -6,6 +6,8 @@ from Services.optimizator import presupuesto_by_area as SOptimizator
 
 
 class Optimizator(Resource):
+    valor_area = float
+    valor_presupuesto = float
 
     @cross_origin()
     def get(self):
