@@ -12,7 +12,7 @@ function ScatterPlot({data, nClusters, onChange}) {
   }, [] );
 
   useEffect(() => {
-    const myColors = ["#ff0000", "#00ff00", "#0000ff"];
+    const myColors = ["#a0548c", "#20609b", "#92d82b", "#fa7268", "#e02ed9", "#e79abd"];
     const palleteOfColors = palleteColor(myColors, nClusters);
     console.log(palleteOfColors);
     update(data,

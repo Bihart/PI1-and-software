@@ -6,7 +6,7 @@ function setup(data, reference)
   const minY = d3.min(dataY);
   const maxY = d3.max(dataY) + 1;
 
-  const margin = {top: 10, right: 30, bottom: 30, left: 60},
+  const margin = {top: 40, right: 30, bottom: 60, left: 60},
         width = 720 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
 
@@ -30,6 +30,27 @@ function setup(data, reference)
               .domain([Math.min(0, minY), maxY])
               .range([ height, 0]);
 
+  svg.append("text")
+     .attr("class", "x label")
+     .attr("text-anchor", "end")
+     .attr("x", width / 2)
+     .attr("y", height + 40)
+     .text("Precio de sensores");
+
+  svg.append("text")
+     .attr("class", "title label")
+     .attr("text-anchor", "end")
+     .attr("x", width / 2)
+     .attr("y", - 10)
+     .text("Grupos tipo vs precio");
+
+  svg.append("text")
+     .attr("class", "y label")
+     .attr("text-anchor", "end")
+     .attr("y", - 39)
+     .attr("dy", ".75em")
+     .attr("transform", "rotate(-90)")
+     .text("Tipo de sensores");
   svg.append("g")
      .call(d3.axisLeft(y));
 

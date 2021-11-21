@@ -40,7 +40,7 @@ function addXHex(number, c1) {
  * @return {Array<string>}
  */
 function palleteColor(listOfColors, numberOfColors) {
-  const addBlack = (c1, number) => addHexColor(c1, addXHex(number, '000009'));
+  const addBlack = (c1, number) => addHexColor(c1, addXHex(number, '050505'));
   const hex2str = (hex) => hex.replace('#', '');
   const str2Hex = (str) => str.replace(/^/, '#');
   const composeFunction = (item, number) => {
