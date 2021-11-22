@@ -1,18 +1,19 @@
 import React from 'react';
 
-function Sensor({data})
+function UpdateData({onSubmit})
 {
   return (
-    <form method="#" class="container">
+    <form onSubmit={onSubmit}>
       <div>
-        <label for="upgrade_file">
+        <label htmlFor="upgrade_file">
           Select the file to send
         </label>
         <input type="file"
                id="upgrade_file"
                name="upgrade_file"
                className="upgrade_file"
-               accept=".json"/>
+               accept=".json"
+               required/>
       </div>
       <div>
         <button>Submit</button>
@@ -21,4 +22,4 @@ function Sensor({data})
   );
 }
 
-export { Sensor };
+export { UpdateData };
