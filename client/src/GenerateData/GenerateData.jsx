@@ -15,7 +15,7 @@ function GenerateData({onSubmit}) {
              className="m-1"
              required/>
       <button
-        className="bg-red-300 p-1">
+        className="bg-red-300 p-1 hover:bg-red-400">
         Request
       </button>
     </form>

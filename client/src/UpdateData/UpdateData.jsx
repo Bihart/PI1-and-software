@@ -4,7 +4,6 @@ function UpdateData({onSubmit})
 {
   return (
     <form onSubmit={onSubmit}>
-      <div>
         <label htmlFor="upgrade_file">
           Select the file to send
         </label>
@@ -14,10 +13,9 @@ function UpdateData({onSubmit})
                className="upgrade_file"
                accept=".json"
                required/>
-      </div>
-      <div>
-        <button>Submit</button>
-      </div>
+      <button className="bg-red-300 p-1 hover:bg-red-400">
+        Submit
+      </button>
     </form>
   );
 }

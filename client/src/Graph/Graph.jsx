@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from 'react';
-// import { GenerateData } from '../GenerateData/GenerateData'
+import { GenerateData } from '../GenerateData/GenerateData'
 import { Actions } from '../Actions/Actions'
 import { UpdateData } from '../UpdateData/UpdateData'
 
@@ -21,20 +21,20 @@ function Graph(){
     isFetch: false
   });
 
-  // const getDataOfServer = async (e) => {
-  //   e.preventDefault();
-  //   const n_data = document.getElementById("n_data").value;
-  //   const host = (numberOfData) => `http://localhost:5000/api?n_data=${n_data}`
-  //   const data = await fetch(host(n_data))
-  //         .then(res => res.json())
+  const getDataOfServer = async (e) => {
+    e.preventDefault();
+    const n_data = document.getElementById("n_data").value;
+    const host = (numberOfData) => `http:localhost:5000/api?n_data=${n_data}`
+    const data = await fetch(host(n_data))
+          .then(res => res.json())
 
-  //   setData({
-  //     sensors: [...data],
-  //     isFetch: true
-  //   });
+    setData({
+      sensors: [...data],
+      isFetch: true
+    });
 
-  //   document.getElementById("n_data").value = "";
-  // }
+    document.getElementById("n_data").value = "";
+  }
 
   const sentDataToServer = async (e) => {
     try
@@ -76,8 +76,20 @@ function Graph(){
 
   return (
     <Fragment>
-      <UpdateData onSubmit={sentDataToServer}/>
-      {/* <GenerateData onSubmit={getDataOfServer} /> */}
+      <div className="flex flex-row">
+        <div className="border-r-2 border-blue-600 m-2 p-2">
+          <h3 className="font-bold text-center text-red-600">
+            This section is to update a file with your data.
+          </h3>
+          <UpdateData onSubmit={sentDataToServer}/>
+        </div>
+        <div className="m-2 p-2">
+          <h3 className="font-bold text-center text-red-600">
+            This section is to generate random data.
+          </h3>
+          <GenerateData onSubmit={getDataOfServer} />
+        </div>
+      </div>
       {
         data.isFetch?
         <Actions data={data.sensors} isActive={data.isFetch}/> :
