@@ -24,10 +24,13 @@ function Graph(){
   const getDataOfServer = async (e) => {
     e.preventDefault();
     const n_data = document.getElementById("n_data").value;
-    const host = (numberOfData) => `http:localhost:5000/api?n_data=${n_data}`
+    console.log(n_data);
+    const host = (numberOfData) => `http://localhost:5000/api?n_data=${n_data}`
     const data = await fetch(host(n_data))
           .then(res => res.json())
 
+
+    console.log(data);
     setData({
       sensors: [...data],
       isFetch: true
